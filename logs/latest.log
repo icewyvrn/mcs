@@ -1,0 +1,155 @@
+[03:45:03] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[03:45:03] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[03:45:03] [main/INFO]: Loading 53 mods:
+	- architectury 9.2.14
+	- cobblemon 1.4.1+1.20.1
+	- dynamiclights 1.7.1+mod
+	- fabric-api 0.92.0+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.4+1802ada577
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- fallingtree 4.3.4
+	- ferritecore 6.0.1
+	- java 21
+	- letmedespawn 1.2.0
+	- lithium 0.11.2
+	- minecraft 1.20.1
+	- mr_veinminer 1.1.0
+	- noisium 2.0.1+mc1.20.x
+	   \-- mixinextras 0.3.5
+[03:45:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/user/mcs/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:45:03] [main/INFO]: Compatibility level set to JAVA_16
+[03:45:03] [main/INFO]: Compatibility level set to JAVA_17
+[03:45:04] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[03:45:05] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:45:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[03:45:17] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[03:45:17] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[03:45:17] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[03:45:17] [main/ERROR]: No data fixer registered for cobblemon:boat
+[03:45:17] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[03:45:17] [main/INFO]: Starting the Best Spawner...
+[03:45:17] [main/INFO]: Loaded 5 spawning condition types.
+[03:45:17] [main/INFO]: Loaded 5 spawning context types.
+[03:45:17] [main/INFO]: Loaded 1 spawn detail types.
+[03:45:18] [Cobblemon Showdown/INFO]: Starting showdown service...
+[03:45:23] [Cobblemon Showdown/INFO]: Showdown has been started!
+[03:45:23] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[03:45:23] [main/INFO]: Registered the cobblemon:species_features registry
+[03:45:23] [main/INFO]: Registered the cobblemon:global_species_features registry
+[03:45:23] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[03:45:23] [main/INFO]: Registered the cobblemon:moves registry
+[03:45:23] [main/INFO]: Registered the cobblemon:abilities registry
+[03:45:23] [main/INFO]: Registered the cobblemon:species registry
+[03:45:23] [main/INFO]: Registered the cobblemon:species_additions registry
+[03:45:23] [main/INFO]: Registered the cobblemon:pokeballs registry
+[03:45:23] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[03:45:23] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[03:45:23] [main/INFO]: Registered the cobblemon:mechanics registry
+[03:45:23] [main/INFO]: Registered the cobblemon:bag_items registry
+[03:45:23] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[03:45:23] [main/INFO]: Registered the cobblemon:berries registry
+[03:45:23] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[03:45:23] [main/INFO]: Loading Noisium.
+[03:45:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:45:24] [main/INFO]: Found new data pack fabric, loading it automatically
+[03:45:28] [main/INFO]: Loaded 7 recipes
+[03:45:28] [main/INFO]: Loaded 1558 advancements
+[03:45:35] [main/INFO]: Loaded 921 moves
+[03:45:35] [main/INFO]: Loaded 310 abilities
+[03:45:36] [main/INFO]: Finished additions
+[03:45:38] [main/INFO]: Imported 185 held item IDs from showdown
+[03:45:38] [main/INFO]: Loaded 1017 Pokémon species
+[03:45:38] [main/INFO]: Loaded 32 spawn detail presets.
+[03:45:38] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[03:45:39] [main/INFO]: Loaded 69 berries
+[03:45:40] [main/INFO]: Applied 534 biome modifications to 64 of 64 new biomes in 28.91 ms
+[03:45:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:45:40] [Server thread/INFO]: Loading properties
+[03:45:40] [Server thread/INFO]: Default game type: SURVIVAL
+[03:45:40] [Server thread/INFO]: Generating keypair
+[03:45:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:45:40] [Server thread/INFO]: Using epoll channel type
+[03:45:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:45:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:45:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:45:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:45:41] [Server thread/INFO]: Preparing level "world"
+[03:45:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:45:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[03:45:56] [Server thread/INFO]: Time elapsed: 9035 ms
+[03:45:56] [Server thread/INFO]: Done (15.563s)! For help, type "help"
