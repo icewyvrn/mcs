@@ -1,0 +1,368 @@
+{
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-04-09 12:24:46 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_base_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 12:39:43 +0000"
+    },
+    "done": false
+  },
+  "adorn:recipes/crate": {
+    "criteria": {
+      "has_key_item_0": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-04-09 12:24:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-04-09 12:06:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-04-09 12:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:root": {
+    "criteria": {
+      "picked_starter": "2024-04-09 12:06:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-04-09 12:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-04-09 13:11:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-04-09 13:11:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:brew_all": {
+    "criteria": {
+      "obtain_potion": "2024-04-09 12:06:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2024-04-09 12:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_post": {
+    "criteria": {
+      "has_jungle_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/picket_fence": {
+    "criteria": {
+      "has_key_item_0": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-04-09 12:24:46 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:first_catch": {
+    "criteria": {
+      "catch": "2024-04-09 12:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-04-09 12:25:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_all_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 12:39:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2024-04-09 12:23:35 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_poke_ball": {
+    "criteria": {
+      "requirement": "2024-04-09 12:39:43 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_post": {
+    "criteria": {
+      "has_spruce_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2024-04-09 12:15:25 +0000",
+      "minecraft:birch_forest": "2024-04-09 12:29:35 +0000",
+      "minecraft:badlands": "2024-04-09 12:29:30 +0000",
+      "minecraft:savanna_plateau": "2024-04-09 12:09:46 +0000",
+      "minecraft:beach": "2024-04-09 12:10:38 +0000",
+      "minecraft:snowy_plains": "2024-04-09 12:55:36 +0000",
+      "minecraft:snowy_taiga": "2024-04-09 12:13:33 +0000",
+      "minecraft:forest": "2024-04-09 12:19:50 +0000",
+      "minecraft:windswept_forest": "2024-04-09 13:01:07 +0000",
+      "minecraft:warm_ocean": "2024-04-09 12:14:44 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-04-09 12:15:19 +0000",
+      "minecraft:plains": "2024-04-09 12:06:07 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-04-09 13:22:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:22:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

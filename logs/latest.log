@@ -1,12 +1,12 @@
-[10:03:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[10:03:48] [main/WARN]: Warnings were found!
+[02:30:38] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[02:30:39] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu-badges-lib, which is missing!
 	 - You should install any version of modmenu-badges-lib for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[10:03:48] [main/INFO]: Loading 75 mods:
+[02:30:39] [main/INFO]: Loading 77 mods:
 	- adorn 5.0.1+1.20.1
 	- architectury 9.2.14
 	- balm-fabric 7.2.2
@@ -15,6 +15,7 @@
 	- cobblemon 1.4.1+1.20.1
 	- cobblemounts 1.2.1
 	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- collective 7.40
 	- dynamiclights 1.7.1+mod
 	- fabric-api 0.92.0+1.20.1
 	   |-- fabric-api-base 0.4.31+1802ada577
@@ -95,149 +96,601 @@
 	- mr_veinminer 1.1.0
 	- noisium 2.0.1+mc1.20.x
 	   \-- mixinextras 0.3.5
+	- starterkit 6.5
 	- waystones 14.1.3
-[10:03:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/user/mcs/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[10:03:48] [main/INFO]: Compatibility level set to JAVA_16
-[10:03:48] [main/INFO]: Compatibility level set to JAVA_17
-[10:03:49] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[10:03:50] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[10:03:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[10:04:03] [main/INFO]: Initializing Beans' Backpacks Constants
-[10:04:03] [main/INFO]: Initializing Beans' Backpacks Common
-[10:04:03] [main/INFO]: Registering Sounds for beansbackpacks
-[10:04:03] [main/INFO]: Initializing Beans' Backpacks Fabric
-[10:04:03] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[10:04:03] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[10:04:03] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[10:04:03] [main/ERROR]: No data fixer registered for cobblemon:boat
-[10:04:03] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[10:04:04] [main/INFO]: Starting the Best Spawner...
-[10:04:04] [main/INFO]: Loaded 5 spawning condition types.
-[10:04:04] [main/INFO]: Loaded 5 spawning context types.
-[10:04:04] [main/INFO]: Loaded 1 spawn detail types.
-[10:04:04] [Cobblemon Showdown/INFO]: Starting showdown service...
-[10:04:08] [Cobblemon Showdown/INFO]: Showdown has been started!
-[10:04:08] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[10:04:08] [main/INFO]: Registered the cobblemon:species_features registry
-[10:04:08] [main/INFO]: Registered the cobblemon:global_species_features registry
-[10:04:08] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[10:04:08] [main/INFO]: Registered the cobblemon:moves registry
-[10:04:08] [main/INFO]: Registered the cobblemon:abilities registry
-[10:04:08] [main/INFO]: Registered the cobblemon:species registry
-[10:04:08] [main/INFO]: Registered the cobblemon:species_additions registry
-[10:04:08] [main/INFO]: Registered the cobblemon:pokeballs registry
-[10:04:08] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[10:04:08] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[10:04:08] [main/INFO]: Registered the cobblemon:mechanics registry
-[10:04:08] [main/INFO]: Registered the cobblemon:bag_items registry
-[10:04:08] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[10:04:08] [main/INFO]: Registered the cobblemon:berries registry
-[10:04:08] [main/INFO]: Registered 12 blocks to Adorn
-[10:04:08] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[10:04:08] [main/INFO]: Hello Fabric world from Fight or Flight!
-[10:04:08] [main/INFO]: Loading Noisium.
-[10:04:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:04:10] [main/INFO]: Reading Data for beansbackpacks
-[10:04:13] [main/INFO]: Loaded 9 recipes
-[10:04:13] [main/INFO]: Loaded 1928 advancements
-[10:04:19] [main/INFO]: Loaded 921 moves
-[10:04:19] [main/INFO]: Loaded 310 abilities
-[10:04:20] [main/INFO]: Finished additions
-[10:04:22] [main/INFO]: Imported 185 held item IDs from showdown
-[10:04:22] [main/INFO]: Loaded 1017 Pokémon species
-[10:04:22] [main/INFO]: Loaded 32 spawn detail presets.
-[10:04:22] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[10:04:23] [main/INFO]: Loaded 69 berries
-[10:04:25] [main/INFO]: Applied 598 biome modifications to 64 of 64 new biomes in 61.57 ms
-[10:04:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[10:04:25] [Server thread/INFO]: Loading properties
-[10:04:25] [Server thread/INFO]: Default game type: SURVIVAL
-[10:04:25] [Server thread/INFO]: Generating keypair
-[10:04:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:04:25] [Server thread/INFO]: Using epoll channel type
-[10:04:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:04:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:04:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:04:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:04:25] [Server thread/INFO]: Preparing level "divinos"
-[10:04:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:04:35] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:04:37] [Server thread/INFO]: Time elapsed: 11104 ms
-[10:04:37] [Server thread/INFO]: Done (11.670s)! For help, type "help"
-[10:09:52] [Server thread/INFO]: Seraph[/127.0.0.1:41328] logged in with entity id 4148 at (2232.051144523627, 24.0, 2506.3405871698974)
-[10:09:52] [Server thread/INFO]: Syncing beansbackpacks data to "Seraph"
-[10:09:53] [Server thread/INFO]: Seraph joined the game
-[10:09:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[10:10:22] [Server thread/INFO]: Seraph lost connection: Timed out
-[10:10:22] [Server thread/INFO]: Seraph left the game
-[10:10:22] [Server thread/WARN]: handleDisconnection() called twice
-[10:10:39] [Server thread/INFO]: Seraph[/127.0.0.1:50948] logged in with entity id 4166 at (2232.051144523627, 24.0, 2506.3405871698974)
-[10:10:39] [Server thread/INFO]: Syncing beansbackpacks data to "Seraph"
-[10:10:39] [Server thread/INFO]: Seraph joined the game
-[10:15:16] [Server thread/INFO]: SlenderDX1530[/127.0.0.1:37136] logged in with entity id 4242 at (2230.5, 24.0, 2519.5)
-[10:15:16] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
-[10:15:16] [Server thread/INFO]: SlenderDX1530 joined the game
-[10:15:24] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wtf
-[10:15:32] [Server thread/INFO]: [Not Secure] <SlenderDX1530> talagang city ah
-[10:15:41] [Server thread/INFO]: [Not Secure] <SlenderDX1530> bkt palagi babae skin ko :x
-[10:15:47] [Server thread/INFO]: SlenderDX1530 has made the advancement [The World of Cobblemon!]
-[10:16:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> potek pede palit
-[10:16:46] [Server thread/INFO]: [Not Secure] <SlenderDX1530> seeep
-[10:16:53] [Server thread/INFO]: [Not Secure] <Seraph> ng
-[10:16:54] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pede mag restart yung napili ko
-[10:17:00] [Server thread/INFO]: [Not Secure] <Seraph> di ko alam
-[10:17:05] [Server thread/INFO]: [Not Secure] <SlenderDX1530> mali nature eh T_T
-[10:17:12] [Server thread/INFO]: [Not Secure] <Seraph> ok na yan
-[10:17:19] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :x
-[10:17:29] [Server thread/INFO]: [Not Secure] <SlenderDX1530> halp
-[10:17:32] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
-[10:17:32] [Server thread/INFO]: SlenderDX1530 left the game
-[10:17:40] [Server thread/INFO]: SlenderDX1530[/127.0.0.1:56286] logged in with entity id 4282 at (2241.3310212034103, 24.0, 2527.1438165397126)
-[10:17:40] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
-[10:17:40] [Server thread/INFO]: SlenderDX1530 joined the game
-[10:18:05] [Server thread/INFO]: [Not Secure] <SlenderDX1530> bkt ako na tptp?
-[10:18:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> stuck ako
-[10:19:02] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
-[10:19:02] [Server thread/INFO]: SlenderDX1530 left the game
-[10:19:09] [Server thread/INFO]: SlenderDX1530[/127.0.0.1:55970] logged in with entity id 4320 at (2160.8410176538687, 24.04289683901331, 2507.197717241309)
-[10:19:09] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
-[10:19:09] [Server thread/INFO]: SlenderDX1530 joined the game
-[10:19:40] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
-[10:19:40] [Server thread/INFO]: SlenderDX1530 left the game
-[10:19:56] [Server thread/INFO]: SlenderDX1530[/127.0.0.1:42080] logged in with entity id 4330 at (2160.8110874226795, 24.04289683901331, 2507.3642817925916)
-[10:19:56] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
-[10:19:56] [Server thread/INFO]: SlenderDX1530 joined the game
-[10:20:11] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
-[10:20:11] [Server thread/INFO]: SlenderDX1530 left the game
-[10:20:39] [Server thread/INFO]: Seraph lost connection: Disconnected
-[10:20:39] [Server thread/INFO]: Seraph left the game
-[10:20:48] [Server thread/INFO]: Stopping the server
-[10:20:48] [Server thread/INFO]: Stopping server
-[10:20:48] [Server thread/INFO]: Saving players
-[10:20:48] [Server thread/INFO]: Saving worlds
-[10:20:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Divinos 2.0 by Varuna]'/minecraft:overworld
-[10:20:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Divinos 2.0 by Varuna]'/minecraft:the_nether
-[10:20:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Divinos 2.0 by Varuna]'/minecraft:the_end
-[10:20:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (divinos): All chunks are saved
-[10:20:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:20:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:20:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:30:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/mcs/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[02:30:39] [main/INFO]: Compatibility level set to JAVA_16
+[02:30:39] [main/INFO]: Compatibility level set to JAVA_17
+[02:30:40] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[02:30:40] [main/WARN]: Reference map 'starterkit_fabric.refmap.json' for starterkit_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:41] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[02:30:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[02:30:54] [main/INFO]: Initializing Beans' Backpacks Constants
+[02:30:54] [main/INFO]: Initializing Beans' Backpacks Common
+[02:30:54] [main/INFO]: Registering Sounds for beansbackpacks
+[02:30:54] [main/INFO]: Initializing Beans' Backpacks Fabric
+[02:30:54] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[02:30:55] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[02:30:55] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[02:30:55] [main/ERROR]: No data fixer registered for cobblemon:boat
+[02:30:55] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[02:30:55] [main/INFO]: Starting the Best Spawner...
+[02:30:55] [main/INFO]: Loaded 5 spawning condition types.
+[02:30:55] [main/INFO]: Loaded 5 spawning context types.
+[02:30:55] [main/INFO]: Loaded 1 spawn detail types.
+[02:30:55] [Cobblemon Showdown/INFO]: Starting showdown service...
+[02:30:58] [Cobblemon Showdown/INFO]: Showdown has been started!
+[02:30:58] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[02:30:58] [main/INFO]: Registered the cobblemon:species_features registry
+[02:30:58] [main/INFO]: Registered the cobblemon:global_species_features registry
+[02:30:58] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[02:30:58] [main/INFO]: Registered the cobblemon:moves registry
+[02:30:58] [main/INFO]: Registered the cobblemon:abilities registry
+[02:30:58] [main/INFO]: Registered the cobblemon:species registry
+[02:30:58] [main/INFO]: Registered the cobblemon:species_additions registry
+[02:30:58] [main/INFO]: Registered the cobblemon:pokeballs registry
+[02:30:58] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[02:30:58] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[02:30:58] [main/INFO]: Registered the cobblemon:mechanics registry
+[02:30:58] [main/INFO]: Registered the cobblemon:bag_items registry
+[02:30:58] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[02:30:58] [main/INFO]: Registered the cobblemon:berries registry
+[02:30:58] [main/INFO]: Registered 12 blocks to Adorn
+[02:30:59] [main/INFO]: Loading Collective version 7.40.
+[02:30:59] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[02:30:59] [main/INFO]: Hello Fabric world from Fight or Flight!
+[02:30:59] [main/INFO]: Loading Noisium.
+[02:30:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:31:01] [main/INFO]: Reading Data for beansbackpacks
+[02:31:04] [main/INFO]: Loaded 9 recipes
+[02:31:04] [main/INFO]: Loaded 1928 advancements
+[02:31:09] [main/INFO]: Loaded 921 moves
+[02:31:09] [main/INFO]: Loaded 310 abilities
+[02:31:10] [main/INFO]: Finished additions
+[02:31:11] [main/INFO]: Imported 185 held item IDs from showdown
+[02:31:11] [main/INFO]: Loaded 1017 Pokémon species
+[02:31:11] [main/INFO]: Loaded 32 spawn detail presets.
+[02:31:11] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[02:31:12] [main/INFO]: Loaded 69 berries
+[02:31:14] [main/INFO]: Applied 598 biome modifications to 64 of 64 new biomes in 35.81 ms
+[02:31:14] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:31:14] [Server thread/INFO]: Loading properties
+[02:31:14] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:14] [Server thread/INFO]: Generating keypair
+[02:31:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:31:14] [Server thread/INFO]: Using epoll channel type
+[02:31:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:31:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:31:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:31:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:31:14] [Server thread/INFO]: Preparing level "world"
+[02:31:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:31:32] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[02:31:33] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[02:31:33] [Server thread/INFO]: Time elapsed: 10430 ms
+[02:31:33] [Server thread/INFO]: Done (18.812s)! For help, type "help"
+[02:38:44] [Server thread/INFO]: Seraph[/[0:0:0:0:0:0:0:1%0]:46236] logged in with entity id 194 at (50.21063670409828, 114.0, -115.87050757828054)
+[02:38:45] [Server thread/INFO]: Syncing beansbackpacks data to "Seraph"
+[02:38:45] [Server thread/INFO]: Seraph joined the game
+[02:39:40] [Server thread/INFO]: Seraph has made the advancement [The World of Cobblemon!]
+[02:45:25] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:41342] logged in with entity id 639 at (4.5, 76.0, -9.5)
+[02:45:25] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
+[02:45:25] [Server thread/INFO]: meep9000 joined the game
+[02:45:26] [Server thread/INFO]: meep9000 has made the advancement [You cannot handle my Potions]
+[02:45:37] [Server thread/INFO]: meep9000 has made the advancement [The World of Cobblemon!]
+[02:46:09] [Server thread/INFO]: [Not Secure] <meep9000> sep penge balls
+[02:48:46] [Server thread/INFO]: meep9000 has made the advancement [Stone Age]
+[02:49:28] [Server thread/INFO]: Unknown item 'cobblemon:pokeball'
+[02:49:28] [Server thread/INFO]: ...ve Seraph cobblemon:pokeball 8<--[HERE]
+[02:49:48] [Server thread/INFO]: Seraph has made the advancement [The First of Many]
+[02:49:48] [Server thread/INFO]: Gave 8 [Poké Ball] to Seraph
+[02:50:07] [Server thread/INFO]: meep9000 has made the advancement [The First of Many]
+[02:50:07] [Server thread/INFO]: Gave 8 [Poké Ball] to meep9000
+[02:50:50] [Server thread/INFO]: meep9000 has made the advancement [Getting an Upgrade]
+[02:51:50] [Server thread/INFO]: Seraph has made the advancement [You cannot handle my Potions]
+[02:51:50] [Server thread/INFO]: Gave 5 [Potion] to Seraph
+[02:57:11] [Server thread/INFO]: meep9000 has made the advancement [A New Friend!]
+[02:58:27] [Server thread/INFO]: [Not Secure] <Seraph> wala ako mahanap
+[02:59:48] [Server thread/INFO]: Unknown item 'cobbledex:pokedex'
+[02:59:48] [Server thread/INFO]: ...ve Seraph cobbledex:pokedex<--[HERE]
+[03:00:13] [Server thread/INFO]: Unknown item 'cobbledex:poke_dex'
+[03:00:13] [Server thread/INFO]: ...ve Seraph cobbledex:poke_dex<--[HERE]
+[03:03:43] [Server thread/INFO]: [STDOUT]: null
+[03:04:33] [Server thread/INFO]: [Not Secure] <meep9000> sep penge pa nga ako balls na ka hnap ako ng eevee pero ayaw mag capture
+[03:05:03] [Server thread/INFO]: Unknown item 'cobblemon:pokeball'
+[03:05:03] [Server thread/INFO]: ... meep9000 cobblemon:pokeball 10<--[HERE]
+[03:05:26] [Server thread/INFO]: Gave 10 [Poké Ball] to meep9000
+[03:06:30] [Server thread/INFO]: [Not Secure] <meep9000> ff nakill ko haha
+[03:06:36] [Server thread/INFO]: [Not Secure] <Seraph> haha
+[03:07:09] [Server thread/INFO]: meep9000 has made the advancement [Is it a Fruit or is it a Nut?]
+[03:07:09] [Server thread/INFO]: meep9000 has made the advancement [Mother Nature's Bounty]
+[03:08:57] [Server thread/INFO]: Seraph has made the advancement [There's a Leek in the Boat!]
+[03:08:57] [Server thread/INFO]: Seraph has made the advancement [Mother Nature's Bounty]
+[03:13:14] [Server thread/INFO]: Gave 5 [Max Revive] to Seraph
+[03:13:21] [Server thread/INFO]: Seraph has made the advancement [Live to fight another day!]
+[03:13:44] [Server thread/INFO]: meep9000 has made the advancement [Very Berry]
+[03:16:50] [Server thread/INFO]: Gave 10 [Poké Ball] to Seraph
+[03:17:09] [Server thread/INFO]: meep9000 lost connection: Disconnected
+[03:17:09] [Server thread/INFO]: meep9000 left the game
+[03:18:51] [Server thread/INFO]: Gave 5 [Max Revive] to Seraph
+[03:27:24] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:56100] logged in with entity id 18562 at (-70.48664339703869, 101.0, -250.03733115403423)
+[03:27:24] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
+[03:27:24] [Server thread/INFO]: meep9000 joined the game
+[03:27:48] [Server thread/INFO]: Gave 10 [Poké Ball] to Seraph
+[03:29:19] [Server thread/INFO]: meep9000 has made the advancement [Doing my Part]
+[03:35:50] [Server thread/INFO]: Gave 2 [Healing Machine] to Seraph
+[03:37:01] [Server thread/INFO]: Seraph has made the advancement [Healing Power]
+[03:38:39] [Server thread/INFO]: meep9000 has made the advancement [Acquire Hardware]
+[03:41:55] [Server thread/INFO]: Seraph fell from a high place
+[03:42:35] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[03:46:41] [Server thread/INFO]: Made Seraph a server operator
+[03:47:08] [Server thread/INFO]: [Seraph: Teleported Seraph to -109.500000, 87.500000, -231.500000]
+[03:48:48] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to meep9000]
+[03:49:44] [Server thread/INFO]: [Seraph: Gave Beldum to Seraph.]
+[03:50:10] [Server thread/INFO]: [Seraph: Beldum was removed.]
+[03:50:35] [Server thread/INFO]: [Seraph: Teleported Seraph to -188.500000, 76.500000, -372.500000]
+[03:51:16] [Server thread/INFO]: [Seraph: Gave Beldum to Seraph.]
+[03:52:02] [Server thread/INFO]: [Seraph: Beldum was removed.]
+[03:52:50] [Server thread/INFO]: SlenderDX1530[/[0:0:0:0:0:0:0:1%0]:46924] logged in with entity id 73697 at (4.5, 71.0, 5.5)
+[03:52:50] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
+[03:52:50] [Server thread/INFO]: SlenderDX1530 joined the game
+[03:52:51] [Server thread/INFO]: SlenderDX1530 has made the advancement [You cannot handle my Potions]
+[03:53:35] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wtf
+[03:53:54] [Server thread/INFO]: [Seraph: Gave Beldum to Seraph.]
+[03:53:56] [Server thread/INFO]: SlenderDX1530 has made the advancement [The World of Cobblemon!]
+[03:54:14] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wala me pokeballs
+[03:54:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [The First of Many]
+[03:54:36] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to SlenderDX1530]
+[03:54:44] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tnx
+[03:55:08] [Server thread/INFO]: [Not Secure] <meep9000> give me back my eevee russ
+[03:55:20] [Server thread/INFO]: [Not Secure] <SlenderDX1530> no
+[03:55:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ask master sep
+[03:55:43] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to Seraph]
+[03:56:22] [Server thread/INFO]: [Not Secure] <meep9000> saan na tayo magbibuild ng base?
+[03:56:33] [Server thread/INFO]: [Not Secure] <meep9000> puno na inventory ko
+[03:56:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tdk
+[03:57:01] [Server thread/INFO]: Seraph has made the advancement [Very Berry]
+[03:58:20] [Server thread/INFO]: [Seraph: Teleported Seraph to -337.500000, 93.500000, -126.500000]
+[03:58:42] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
+[03:58:42] [Server thread/INFO]: SlenderDX1530 left the game
+[03:59:22] [Server thread/INFO]: [Seraph: Teleported Seraph to -343.500000, 71.500000, -115.500000]
+[04:00:03] [Server thread/INFO]: Seraph has made the advancement [A New Friend!]
+[04:10:14] [Server thread/INFO]: SlenderDX1530[/[0:0:0:0:0:0:0:1%0]:40938] logged in with entity id 92728 at (-3.5, 70.0, 10.5)
+[04:10:14] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
+[04:10:14] [Server thread/INFO]: SlenderDX1530 joined the game
+[04:11:03] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
+[04:11:03] [Server thread/INFO]: SlenderDX1530 left the game
+[04:13:05] [Server thread/INFO]: meep9000 has made the advancement [Isn't It Iron Pick]
+[04:13:19] [Server thread/INFO]: [Not Secure] <Seraph> kain lang
+[04:13:23] [Server thread/INFO]: Seraph lost connection: Disconnected
+[04:13:23] [Server thread/INFO]: Seraph left the game
+[04:16:49] [Server thread/INFO]: SlenderDX1530[/[0:0:0:0:0:0:0:1%0]:40920] logged in with entity id 94550 at (9.70806920520259, 71.0, 5.4859722335376615)
+[04:16:49] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
+[04:16:49] [Server thread/INFO]: SlenderDX1530 joined the game
+[04:16:55] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ayuuun
+[04:16:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> nawala na rin
+[04:20:39] [Server thread/INFO]: [Not Secure] <SlenderDX1530> sirain ko ba yung cherry biome?
+[04:20:41] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :0
+[04:20:57] [Server thread/INFO]: [Not Secure] <meep9000> subukan mo lang :)
+[04:22:15] [Server thread/INFO]: SlenderDX1530 has made the advancement [Stone Age]
+[04:24:55] [Server thread/INFO]: [STDOUT]: null
+[04:24:59] [Server thread/INFO]: [STDOUT]: null
+[04:26:23] [Server thread/INFO]: [STDOUT]: null
+[04:26:34] [Server thread/INFO]: SlenderDX1530 has made the advancement [Hard Work and Dedication]
+[04:30:51] [Server thread/INFO]: [Not Secure] <SlenderDX1530> san ka brid?
+[04:31:19] [Server thread/INFO]: [Not Secure] <meep9000> nasa cherry grove gumagawa ng base
+[04:31:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :o
+[04:40:03] [Server thread/INFO]: SlenderDX1530 has made the advancement [Getting an Upgrade]
+[04:41:52] [Server thread/INFO]: [STDOUT]: null
+[04:43:25] [Server thread/INFO]: SlenderDX1530 has made the advancement [Too Heavy]
+[04:43:35] [Server thread/INFO]: SlenderDX1530 has made the advancement [Time for an Upgrade]
+[04:44:24] [Server thread/INFO]: [Not Secure] <SlenderDX1530> panu ko i pickup yung backpack?
+[04:45:44] [Server thread/INFO]: [Not Secure] <meep9000> di ko alam
+[04:45:49] [Server thread/INFO]: [Not Secure] <SlenderDX1530> okey na
+[04:45:56] [Server thread/INFO]: [Not Secure] <meep9000> pano
+[04:46:03] [Server thread/INFO]: [Not Secure] <SlenderDX1530> check mo controls
+[04:46:11] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i bound mo yung control sa bean backpack
+[04:46:20] [Server thread/INFO]: [Not Secure] <meep9000> ohh
+[04:46:32] [Server thread/INFO]: [STDOUT]: null
+[04:46:36] [Server thread/INFO]: [STDOUT]: null
+[04:48:05] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pog so pede klumaban pokemon mo parang wolf hahaha
+[04:48:29] [Server thread/INFO]: [Not Secure] <meep9000> hahaha
+[04:50:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pog i got waterstone
+[04:55:21] [Server thread/INFO]: SlenderDX1530 has made the advancement [Acquire Hardware]
+[04:55:27] [Server thread/INFO]: SlenderDX1530 has made the advancement [Isn't It Iron Pick]
+[04:56:15] [Server thread/INFO]: Incorrect argument for command
+[04:56:15] [Server thread/INFO]: ...heckspawn ultra-rare<--[HERE]
+[04:56:28] [Server thread/INFO]: Incorrect argument for command
+[04:56:28] [Server thread/INFO]: ...heckspawn ultra-rare<--[HERE]
+[04:58:22] [Server thread/INFO]: Seraph[/[0:0:0:0:0:0:0:1%0]:52956] logged in with entity id 211653 at (-339.3061536378732, 89.0, -96.71373777888631)
+[04:58:22] [Server thread/INFO]: Syncing beansbackpacks data to "Seraph"
+[04:58:22] [Server thread/INFO]: Seraph joined the game
+[04:58:30] [Server thread/INFO]: [Not Secure] <SlenderDX1530> sep
+[04:58:39] [Server thread/INFO]: [Not Secure] <SlenderDX1530> gib me starter kit
+[04:59:17] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to SlenderDX1530]
+[04:59:29] [Server thread/INFO]: [Not Secure] <SlenderDX1530> penge potion :x
+[04:59:59] [Server thread/INFO]: [Seraph: Gave 10 [Potion] to SlenderDX1530]
+[05:00:02] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tnx
+[05:00:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> lahat ng ore dito i need talaga
+[05:00:37] [Server thread/INFO]: [Seraph: Teleported Seraph to -57.500000, 102.500000, -239.500000]
+[05:01:17] [Server thread/INFO]: [Seraph: Teleported Seraph to -218.500000, 102.500000, -158.500000]
+[05:01:54] [Server thread/INFO]: [Seraph: Teleported Seraph to -49.500000, 105.500000, -258.500000]
+[05:03:50] [Server thread/INFO]: [Seraph: Teleported Seraph to -247.500000, 66.500000, -322.500000]
+[05:04:37] [Server thread/INFO]: [Not Secure] <SlenderDX1530> san kayo gumagawa na base?
+[05:05:36] [Server thread/INFO]: [Not Secure] <meep9000> xaero-waypoint:sidemountainbase:M:-140:104:-275:13:false:0:Internal-overworld-waypoints
+[05:05:58] [Server thread/INFO]: [Seraph: Teleported Seraph to -139.500000, 104.500000, -274.500000]
+[05:07:16] [Server thread/INFO]: [Not Secure] <Seraph> may access kayo sa pc command?
+[05:07:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wley
+[05:07:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> like gamemode ba?
+[05:07:37] [Server thread/INFO]: [Not Secure] <meep9000> nope
+[05:07:45] [Server thread/INFO]: [Not Secure] <Seraph> para maview pc
+[05:08:01] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yung pc ba yung sa cobblemon?
+[05:08:31] [Server thread/INFO]: [Not Secure] <Seraph> oo
+[05:08:37] [Server thread/INFO]: [Not Secure] <SlenderDX1530> di ko pa na try
+[05:08:39] [Server thread/INFO]: Seraph has made the advancement [Stone Age]
+[05:08:57] [Server thread/INFO]: [Not Secure] <SlenderDX1530> nag mine me ngayon para maka gawa tayo ng marami balls
+[05:09:35] [Server thread/INFO]: [Not Secure] <Seraph> san makakuha ng red apricorn
+[05:09:42] [Server thread/INFO]: [Not Secure] <SlenderDX1530> puno
+[05:10:03] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may mga puno na nagbibigay ng apri corn
+[05:10:07] [Server thread/INFO]: [Not Secure] <meep9000> sa mga trees na brown leaves right click mo rang yung color full fruits
+[05:12:20] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may melon seed nakita hehehe
+[05:16:52] [Server thread/INFO]: [Seraph: Teleported Seraph to -215.500000, 63.500000, -256.500000]
+[05:17:01] [Server thread/INFO]: [Seraph: Removed 86 item(s) from player Seraph]
+[05:17:16] [Server thread/INFO]: [Not Secure] <Seraph> clear
+[05:17:21] [Server thread/INFO]: [Not Secure] <SlenderDX1530> uh?
+[05:17:29] [Server thread/INFO]: [Not Secure] <Seraph> command
+[05:22:34] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ima diamond hunt
+[05:29:55] [Server thread/INFO]: SlenderDX1530 has made the advancement [A New Friend!]
+[05:30:41] [Server thread/INFO]: SlenderDX1530 has made the advancement [Diamonds!]
+[05:32:26] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 154.372527 ms
+[05:32:26] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 155.407358 ms
+[05:32:26] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 158.665229 ms
+[05:32:26] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 163.919938 ms
+[05:32:26] [Server thread/WARN]: Something's taking too long! 'root' took aprox 170.206601 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather.execute as @e[type=!#dynamiclights:dyn_ignore,tag=!smithed.strict,tag=!global.ignore,tag=!global.ignore.gui] at @s run function dynamiclights:internal/main_exec' took aprox 202.317415 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather' took aprox 242.079894 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 293.007573 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 293.790655 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 296.071181 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 298.435193 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root' took aprox 300.453682 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 110.204382 ms
+[05:32:30] [Server thread/WARN]: Something's taking too long! 'root' took aprox 113.274703 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 105.647306 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 106.14193 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 106.537908 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 107.734681 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root' took aprox 108.481126 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 117.651663 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 127.687625 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 128.122577 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 129.684482 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root' took aprox 130.508931 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 122.824808 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 124.244298 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 124.629116 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 132.62958 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root' took aprox 133.60995 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 115.511508 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 121.228729 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 121.72217 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 122.716627 ms
+[05:32:31] [Server thread/WARN]: Something's taking too long! 'root' took aprox 124.414074 ms
+[05:32:32] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 101.677175 ms
+[05:32:32] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 102.200993 ms
+[05:32:32] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 102.625546 ms
+[05:32:32] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 103.466916 ms
+[05:32:32] [Server thread/WARN]: Something's taking too long! 'root' took aprox 104.500525 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather.execute as @s[type=!#dynamiclights:may_block_explosion,type=!minecraft:end_crystal] anchored eyes positioned ^ ^ ^ run function dynamiclights:internal/sources/entity' took aprox 202.937983 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather' took aprox 218.862748 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 237.035087 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 237.413705 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 237.752787 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 238.407459 ms
+[05:32:33] [Server thread/WARN]: Something's taking too long! 'root' took aprox 239.567815 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.entities' took aprox 100.91904 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 127.903227 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 128.176929 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 128.615236 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 158.159843 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root' took aprox 161.243458 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 113.261167 ms
+[05:32:34] [Server thread/WARN]: Something's taking too long! 'root' took aprox 114.351774 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather.execute as @s[type=!#dynamiclights:may_block_explosion,type=!minecraft:end_crystal] anchored eyes positioned ^ ^ ^ run function dynamiclights:internal/sources/entity' took aprox 191.725566 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick.weather' took aprox 209.034884 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld.tick' took aprox 230.878426 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick.levels.ServerLevel[world] minecraft:overworld' took aprox 232.191066 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick.levels' took aprox 233.610755 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 235.855074 ms
+[05:32:36] [Server thread/WARN]: Something's taking too long! 'root' took aprox 253.004755 ms
+[05:32:36] [IO-Worker-138/INFO]: Flushed metrics to /tmp/minecraft-profiling11055053597828911470/server/metrics/ticking.csv
+[05:32:36] [IO-Worker-138/INFO]: Flushed metrics to /tmp/minecraft-profiling11055053597828911470/server/metrics/mailboxes.csv
+[05:32:36] [IO-Worker-138/INFO]: Flushed metrics to /tmp/minecraft-profiling11055053597828911470/server/metrics/cpu.csv
+[05:32:36] [IO-Worker-138/INFO]: Flushed metrics to /tmp/minecraft-profiling11055053597828911470/server/metrics/jvm.csv
+[05:32:36] [IO-Worker-138/INFO]: Flushed metrics to /tmp/minecraft-profiling11055053597828911470/server/metrics/event-loops.csv
+[05:32:38] [IO-Worker-138/INFO]: Compressed to debug/profiling/2024-04-10_05_32_38-world-1_20_1.zip
+[05:33:31] [Server thread/INFO]: [Seraph: Teleported Seraph to -211.500000, 72.500000, -194.500000]
+[05:35:47] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to Seraph]
+[05:38:11] [Server thread/INFO]: [Seraph: Teleported Seraph to -215.500000, 71.500000, -529.500000]
+[05:38:30] [Server thread/INFO]: [Seraph: Teleported Seraph to -261.500000, 80.500000, -581.500000]
+[05:40:10] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[05:40:24] [Server thread/INFO]: [Not Secure] <Seraph> level 30 electabuzz dito
+[05:40:41] [Server thread/INFO]: [Not Secure] <SlenderDX1530> nag farm me ng ores hehe
+[05:40:52] [Server thread/INFO]: [Not Secure] <Seraph> hirap humuli
+[05:41:16] [Server thread/INFO]: [Not Secure] <meep9000> haha
+[05:42:50] [Server thread/INFO]: [Seraph: Gave 10 [Poké Ball] to 3]
+[05:43:28] [Server thread/INFO]: [Seraph: Teleported Seraph to -342.500000, 93.500000, -99.500000]
+[05:43:51] [Server thread/INFO]: SlenderDX1530 has made the advancement [Full House]
+[05:44:23] [Server thread/INFO]: [Not Secure] <SlenderDX1530> potek sep spawn mo nga me ng 1 glass block
+[05:44:52] [Server thread/INFO]: [Seraph: Gave 1 [Glass] to SlenderDX1530]
+[05:44:56] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tnx
+[05:46:01] [Server thread/INFO]: Seraph has made the advancement [Doing my Part]
+[05:46:01] [Server thread/INFO]: [Seraph: Gave 10 [Red Apricorn Sprout] to Seraph]
+[05:46:32] [Server thread/INFO]: [Seraph: Teleported Seraph to -107.500000, 120.500000, -277.500000]
+[05:46:53] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i found onix
+[05:47:24] [Server thread/INFO]: [STDOUT]: null
+[05:48:11] [Server thread/INFO]: [Not Secure] <meep9000> haha na capture mo
+[05:48:15] [Server thread/INFO]: [Not Secure] <Seraph> yea
+[05:49:10] [Server thread/INFO]: [Not Secure] <Seraph> wigglytuff dito oh
+[05:49:17] [Server thread/INFO]: [Not Secure] <meep9000> sakin yan
+[05:49:18] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may steelix dito
+[05:49:21] [Server thread/INFO]: [Not Secure] <Seraph> ahh haha
+[05:49:26] [Server thread/INFO]: [Not Secure] <Seraph> :0
+[05:49:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> gagi ang laki
+[05:49:46] [Server thread/INFO]: [STDOUT]: null
+[05:49:47] [Server thread/INFO]: [Not Secure] <meep9000> na get lucky ako sa wiggly ahah down to the last ball
+[05:49:54] [Server thread/INFO]: [STDOUT]: null
+[05:49:57] [Server thread/INFO]: [STDOUT]: null
+[05:50:01] [Server thread/INFO]: [STDOUT]: null
+[05:50:09] [Server thread/INFO]: [STDOUT]: null
+[05:50:13] [Server thread/INFO]: [STDOUT]: null
+[05:50:55] [Server thread/INFO]: [Not Secure] <SlenderDX1530> taktiii
+[05:52:08] [Server thread/INFO]: [Not Secure] <SlenderDX1530> takti penge nga me ultra ball kahit 5 lang
+[05:52:13] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yawa gusto ko ng steelix
+[05:52:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> nvm
+[05:52:30] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wag na pala
+[05:52:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> nakuha ko HAHAHAHA
+[05:52:38] [Server thread/INFO]: [Not Secure] <Seraph> haha
+[05:52:51] [Server thread/INFO]: [Not Secure] <meep9000> lol ano lvl
+[05:52:55] [Server thread/INFO]: [Not Secure] <SlenderDX1530> jolly
+[05:52:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> bali speed steelix
+[05:53:04] [Server thread/INFO]: [Not Secure] <SlenderDX1530> 35
+[05:53:16] [Server thread/INFO]: [Not Secure] <meep9000> hahaha naget lucky
+[05:53:22] [Server thread/INFO]: [Not Secure] <SlenderDX1530> maganda kung atk eh
+[05:53:25] [Server thread/INFO]: [Not Secure] <SlenderDX1530> mababa speed neto
+[05:59:09] [Server thread/INFO]: nosdos[/[0:0:0:0:0:0:0:1%0]:56494] logged in with entity id 333470 at (0.5, 70.0, 8.5)
+[05:59:09] [Server thread/INFO]: Syncing beansbackpacks data to "nosdos"
+[05:59:09] [Server thread/INFO]: nosdos joined the game
+[05:59:10] [Server thread/INFO]: nosdos has made the advancement [You cannot handle my Potions]
+[05:59:15] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yow
+[05:59:24] [Server thread/INFO]: [Not Secure] <nosdos> yo
+[05:59:29] [Server thread/INFO]: [Not Secure] <SlenderDX1530> your late
+[05:59:35] [Server thread/INFO]: [Not Secure] <SlenderDX1530> time to work HAHAH char
+[05:59:41] [Server thread/INFO]: [Not Secure] <nosdos> i forgot
+[06:00:16] [Server thread/INFO]: Seraph has made the advancement [Acquire Hardware]
+[06:01:06] [Server thread/INFO]: [Not Secure] <SlenderDX1530> daming diamonds
+[06:04:25] [Server thread/INFO]: [Seraph: Gave 1 [Red Apricorn Sprout] to Seraph]
+[06:04:52] [Server thread/INFO]: nosdos has made the advancement [Very Berry]
+[06:04:52] [Server thread/INFO]: nosdos has made the advancement [Mother Nature's Bounty]
+[06:08:08] [Server thread/INFO]: [Not Secure] <SlenderDX1530> brid nasa base kaba?
+[06:08:13] [Server thread/INFO]: [Not Secure] <meep9000> yee
+[06:08:20] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tp mo nga ako sep kay brid\
+[06:08:31] [Server thread/INFO]: [Not Secure] <SlenderDX1530> tinatamad ako mag dig straight
+[06:08:36] [Server thread/INFO]: [Not Secure] <SlenderDX1530> sa surfacr XD
+[06:08:42] [Server thread/INFO]: nosdos has made the advancement [The World of Cobblemon!]
+[06:08:51] [Server thread/INFO]: [Seraph: Teleported SlenderDX1530 to -154.500000, 90.000000, -265.500000]
+[06:08:53] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ang deep ko grabi
+[06:08:55] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ty
+[06:09:58] [Server thread/INFO]: [Seraph: Gave 12 [Torch] to Seraph]
+[06:10:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> among iv niyan??
+[06:10:43] [Server thread/INFO]: [Not Secure] <SlenderDX1530> oh water stone
+[06:10:57] [Server thread/INFO]: [Not Secure] <Seraph> dev spd
+[06:11:09] [Server thread/INFO]: [Not Secure] <SlenderDX1530> -def +spd?
+[06:11:26] [Server thread/INFO]: [Not Secure] <Seraph> + def and spd
+[06:11:36] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :v
+[06:11:46] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yung wood brid andito
+[06:11:50] [Server thread/INFO]: [Not Secure] <SlenderDX1530> sa chest
+[06:12:09] [Server thread/INFO]: SlenderDX1530 has made the advancement [Cover Me with Diamonds]
+[06:12:52] [Server thread/INFO]: [Not Secure] <meep9000> xaero-waypoint:sidemountainbase:M:-140:104:-275:13:false:0:Internal-overworld-waypoints
+[06:13:52] [Server thread/INFO]: [Not Secure] <SlenderDX1530> kuha pa me wood?
+[06:14:11] [Server thread/INFO]: [Not Secure] <meep9000> yee etong light color
+[06:14:19] [Server thread/INFO]: [Not Secure] <meep9000> yellow
+[06:14:23] [Server thread/INFO]: [Not Secure] <SlenderDX1530> birch okey
+[06:15:13] [Server thread/INFO]: [Not Secure] <SlenderDX1530> shendinja
+[06:15:32] [Server thread/INFO]: [STDOUT]: null
+[06:15:43] [Server thread/INFO]: [STDOUT]: null
+[06:15:54] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need more balls
+[06:16:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> +spat - spd
+[06:16:28] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pangit
+[06:16:56] [Server thread/INFO]: [Not Secure] <Seraph> gawa ka pokeball farm
+[06:17:02] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wait
+[06:17:29] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may gyardos
+[06:17:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [Very Berry]
+[06:17:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [Mother Nature's Bounty]
+[06:18:14] [Server thread/INFO]: [Not Secure] <Seraph> haha
+[06:18:34] [Server thread/INFO]: [STDOUT]: null
+[06:18:39] [Server thread/INFO]: [Not Secure] <Seraph> lvl 40
+[06:19:14] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ez
+[06:19:27] [Server thread/INFO]: [Not Secure] <SlenderDX1530> eto sep
+[06:19:32] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yung tree
+[06:19:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [Is it a Fruit or is it a Nut?]
+[06:19:37] [Server thread/INFO]: SlenderDX1530 has made the advancement [Doing my Part]
+[06:19:38] [Server thread/INFO]: No battle could be found with the id: 7e7d9528-206f-44c7-a8db-ca13dc5bfc58
+[06:19:38] [Server thread/INFO]: No battle could be found with the id: 7e7d9528-206f-44c7-a8db-ca13dc5bfc58
+[06:19:44] [Server thread/INFO]: [Not Secure] <Seraph> nag despawn na
+[06:19:49] [Server thread/INFO]: [Not Secure] <SlenderDX1530> iyut
+[06:21:07] [Server thread/INFO]: nosdos has made the advancement [Minty Fresh]
+[06:21:21] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i love wonderguard
+[06:24:30] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:26:22] [Server thread/INFO]: nosdos has made the advancement [Is it a Fruit or is it a Nut?]
+[06:28:30] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:29:50] [Server thread/INFO]: nosdos has made the advancement [The First of Many]
+[06:32:01] [Server thread/INFO]: [STDOUT]: null
+[06:32:06] [Server thread/INFO]: [STDOUT]: null
+[06:32:33] [Server thread/INFO]: nosdos has made the advancement [A New Friend!]
+[06:32:52] [Server thread/INFO]: [Not Secure] <meep9000> thank you
+[06:33:19] [Server thread/INFO]: [Not Secure] <SlenderDX1530> cherry stairs rin ba dito brid?
+[06:33:23] [Server thread/INFO]: [Not Secure] <SlenderDX1530> sa labas?
+[06:33:27] [Server thread/INFO]: [Not Secure] <meep9000> yeaa
+[06:34:23] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ima just let you build sa design
+[06:34:31] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i suck at designing :')w
+[06:34:35] [Server thread/INFO]: [Not Secure] <meep9000> yee
+[06:35:31] [Server thread/INFO]: No battle could be found with the id: 7bb4d9cc-b076-49b3-82a5-1c6e396c967a
+[06:35:31] [Server thread/INFO]: No battle could be found with the id: 7bb4d9cc-b076-49b3-82a5-1c6e396c967a
+[06:35:39] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:36:46] [Server thread/INFO]: [Seraph: Teleported Seraph to -208.500000, 70.500000, -338.500000]
+[06:38:23] [Server thread/INFO]: Seraph has made the advancement [Hard Work and Dedication]
+[06:40:00] [Server thread/INFO]: [STDOUT]: null
+[06:40:19] [Server thread/INFO]: [STDOUT]: null
+[06:41:08] [Server thread/INFO]: [Seraph: Edited Seraph's Metang.]
+[06:42:40] [Server thread/INFO]: [STDOUT]: null
+[06:43:17] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:43:27] [Server thread/INFO]: [Not Secure] <meep9000> haaha
+[06:43:42] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need bahay
+[06:44:50] [Server thread/INFO]: [Not Secure] <meep9000> sa taas nalng ng under ground base
+[06:45:20] [Server thread/INFO]: [STDOUT]: null
+[06:45:27] [Server thread/INFO]: [STDOUT]: null
+[06:46:11] [Server thread/INFO]: [Not Secure] <SlenderDX1530> san kaya gagawa ng tree farm
+[06:46:31] [Server thread/INFO]: [Not Secure] <meep9000> sa baba
+[06:46:48] [Server thread/INFO]: nosdos has made the advancement [Doing my Part]
+[06:47:12] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:47:48] [Server thread/INFO]: [Seraph: Teleported Seraph to -137.500000, 77.500000, -206.500000]
+[06:48:05] [Server thread/INFO]: Seraph has made the advancement [Minty Fresh]
+[06:48:14] [Server thread/INFO]: [Not Secure] <SlenderDX1530> saan?
+[06:48:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> turo mo
+[06:48:30] [Server thread/INFO]: [Not Secure] <meep9000> dito baba
+[06:49:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2063ms or 41 ticks behind
+[06:49:39] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:49:48] [Server thread/INFO]: nosdos has made the advancement [Acquire Hardware]
+[06:51:24] [Server thread/INFO]: nosdos has made the advancement [Ice Bucket Challenge]
+[06:51:44] [Server thread/INFO]: No battle could be found with the id: 3005ad42-7649-42ca-86f1-ce410a27e312
+[06:51:44] [Server thread/INFO]: No battle could be found with the id: 3005ad42-7649-42ca-86f1-ce410a27e312
+[06:51:58] [Server thread/INFO]: [STDOUT]: null
+[06:52:04] [Server thread/INFO]: [STDOUT]: null
+[06:52:26] [Server thread/INFO]: [Seraph: Teleported Seraph to -301.500000, 111.500000, -383.500000]
+[06:52:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need pala natin sheep farm noh para sa wool
+[06:53:09] [Server thread/INFO]: [Seraph: Teleported Seraph to -269.500000, 119.500000, -416.500000]
+[06:54:18] [Server thread/INFO]: [Seraph: Teleported Seraph to -335.500000, 84.500000, -464.500000]
+[06:54:32] [Server thread/INFO]: [Seraph: Teleported Seraph to -258.500000, 87.500000, -591.500000]
+[06:54:47] [Server thread/INFO]: [Seraph: Teleported Seraph to -180.500000, 73.500000, -724.500000]
+[06:55:01] [Server thread/INFO]: [Seraph: Teleported Seraph to -205.500000, 81.500000, -827.500000]
+[06:55:32] [Server thread/INFO]: [Seraph: Teleported Seraph to -212.500000, 70.500000, -745.500000]
+[06:55:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [Ice Bucket Challenge]
+[06:57:38] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[06:57:49] [Server thread/INFO]: [Seraph: Teleported Seraph to -242.500000, 82.500000, -601.500000]
+[06:58:42] [Server thread/INFO]: [Seraph: Teleported Seraph to -246.500000, 99.500000, -146.500000]
+[06:59:42] [Server thread/INFO]: [Seraph: Teleported Seraph to -204.500000, 70.500000, -56.500000]
+[07:00:44] [Server thread/INFO]: [STDOUT]: null
+[07:01:08] [Server thread/INFO]: [STDOUT]: null
+[07:01:11] [Server thread/INFO]: No battle could be found with the id: 766eecff-43ba-461d-935a-dc4265390ab2
+[07:01:11] [Server thread/INFO]: No battle could be found with the id: 766eecff-43ba-461d-935a-dc4265390ab2
+[07:01:15] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[07:02:09] [Server thread/INFO]: [Seraph: Teleported Seraph to -60.500000, 102.500000, -218.500000]
+[07:02:37] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wag niyo pala i chop tree yan ah
+[07:02:47] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yung apricorn tree
+[07:04:05] [Server thread/INFO]: SlenderDX1530 has made the advancement [We Need to Go Deeper]
+[07:04:06] [Server thread/WARN]: nosdos moved too quickly! -3.0463197931528114,-0.5297789925312983,-9.656407459991328
+[07:04:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3970ms or 79 ticks behind
+[07:06:57] [Server thread/INFO]: meep9000 has made the advancement [We Need to Go Deeper]
+[07:07:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ang pangit naspawn bwisit
+[07:07:35] [Server thread/INFO]: nosdos has made the advancement [Full House]
+[07:08:11] [Server thread/INFO]: meep9000 tried to swim in lava
+[07:08:34] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[07:08:49] [Server thread/INFO]: [Not Secure] <meep9000> haha i move yung portal
+[07:08:57] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :v
+[07:09:47] [Server thread/INFO]: [Seraph: Gamerule keepInventory is now set to: true]
+[07:09:52] [Server thread/INFO]: Seraph has made the advancement [We Need to Go Deeper]
+[07:12:30] [Server thread/INFO]: SlenderDX1530 has made the advancement [Hidden in the Depths]
+[07:12:41] [Server thread/INFO]: [Not Secure] <SlenderDX1530> hell ye
+[07:13:16] [Server thread/INFO]: [Seraph: Teleported Seraph to -4.500000, 52.500000, -18.500000]
+[07:13:25] [Server thread/INFO]: [Seraph: Teleported Seraph to -15.500000, 44.500000, -4.500000]
+[07:13:32] [Server thread/INFO]: [Seraph: Teleported Seraph to -12.500000, 44.500000, -1.500000]
+[07:13:53] [Server thread/INFO]: [Seraph: Teleported Seraph to -14.500000, 46.500000, 4.500000]
+[07:14:18] [Server thread/INFO]: [Seraph: Teleported Seraph to -4.500000, 34.500000, 10.500000]
+[07:14:36] [Server thread/INFO]: [Seraph: Teleported Seraph to -4.500000, 34.500000, -9.500000]
+[07:15:02] [Server thread/INFO]: [Seraph: Teleported Seraph to 1.500000, 32.500000, -10.500000]
+[07:15:23] [Server thread/INFO]: [Seraph: Teleported Seraph to -3.500000, 33.500000, -12.500000]
+[07:16:04] [Server thread/INFO]: Seraph tried to swim in lava
+[07:16:20] [Server thread/INFO]: [Seraph: Teleported Seraph to -54.500000, 106.500000, -220.500000]
+[07:23:13] [Server thread/INFO]: Seraph has made the advancement [Is it a Fruit or is it a Nut?]
+[07:24:11] [Server thread/INFO]: nosdos has made the advancement [Stone Age]
+[07:26:33] [Server thread/INFO]: [STDOUT]: null
+[07:26:55] [Server thread/INFO]: [Seraph: Fully healed Seraph's party.]
+[07:28:28] [Server thread/INFO]: [Not Secure] <nosdos> we got a pc now
+[07:28:39] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may pc sa base xd
+[07:28:55] [Server thread/INFO]: [Not Secure] <nosdos> there was?
+[07:28:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ye
+[07:29:05] [Server thread/INFO]: [Not Secure] <nosdos> dang
+[07:29:13] [Server thread/INFO]: [Not Secure] <nosdos> i think im blind
+[07:29:17] [Server thread/INFO]: [Not Secure] <SlenderDX1530> haha
+[07:31:29] [Server thread/INFO]: [Not Secure] <SlenderDX1530> well fock
+[07:31:34] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wala me pickaxe
+[07:31:39] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pati tp nga
+[07:32:24] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pa tppppp
+[07:32:25] [Server thread/INFO]: [Seraph: Teleported SlenderDX1530 to -164.500000, 84.000000, -270.500000]
+[07:33:08] [Server thread/INFO]: [Not Secure] <SlenderDX1530> may ancient debree na tayo hehe
+[07:38:59] [Server thread/INFO]: Seraph lost connection: Disconnected
+[07:38:59] [Server thread/INFO]: Seraph left the game
+[07:40:19] [Server thread/INFO]: meep9000 lost connection: Disconnected
+[07:40:19] [Server thread/INFO]: meep9000 left the game
+[07:41:18] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:56664] logged in with entity id 447416 at (-171.97248615971483, 71.0, -254.05752208356338)
+[07:41:18] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
+[07:41:19] [Server thread/INFO]: meep9000 joined the game
+[07:44:35] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pog
+[07:44:40] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i found a fortress
+[07:45:58] [Server thread/INFO]: SlenderDX1530 has made the advancement [A Terrible Fortress]
+[07:45:59] [Server thread/WARN]: meep9000 moved too quickly! 9.911861015623288,1.1661092609382138,2.4952107897110523
+[07:46:15] [Server thread/INFO]: [Not Secure] <meep9000> may nahanao kang forrest?
+[07:46:19] [Server thread/INFO]: [Not Secure] <SlenderDX1530> oo
+[07:46:27] [Server thread/INFO]: [Not Secure] <SlenderDX1530> xaero-waypoint:fortress:F:-181:60:254:8:false:0:Internal-the-nether-waypoints
+[07:46:34] [Server thread/INFO]: [Not Secure] <meep9000> forest
+[07:46:38] [Server thread/INFO]: [Not Secure] <SlenderDX1530> meron
+[07:46:43] [Server thread/INFO]: [Not Secure] <SlenderDX1530> red
+[07:46:45] [Server thread/INFO]: [Not Secure] <meep9000> sa nether yung red and blur
+[07:46:51] [Server thread/INFO]: [Not Secure] <meep9000> noice
+[07:46:52] [Server thread/INFO]: [Not Secure] <SlenderDX1530> red lang nakita ko
+[07:48:21] [Server thread/INFO]: [Not Secure] <meep9000> asna yung red forest
+[07:48:44] [Server thread/INFO]: [Not Secure] <SlenderDX1530> di ko na mark fock
+[07:49:01] [Server thread/INFO]: [Not Secure] <meep9000> :0
+[07:51:24] [Server thread/INFO]: nosdos has made the advancement [Getting an Upgrade]
+[07:52:05] [Server thread/INFO]: meep9000 lost connection: Disconnected
+[07:52:05] [Server thread/INFO]: meep9000 left the game
+[07:53:58] [Server thread/INFO]: [Not Secure] <SlenderDX1530> xaero-waypoint:Blaze spawner:B:-263:57:335:6:false:0:Internal-the-nether-waypoints
+[08:00:30] [Server thread/INFO]: [Not Secure] <SlenderDX1530> kain lang ako
+[08:00:34] [Server thread/INFO]: [Not Secure] <SlenderDX1530> maya uli me on
+[08:00:36] [Server thread/INFO]: [Not Secure] <nosdos> kk
+[08:00:36] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
+[08:00:36] [Server thread/INFO]: SlenderDX1530 left the game
+[08:01:13] [Server thread/INFO]: nosdos has made the advancement [Diamonds!]
+[08:02:48] [Server thread/INFO]: nosdos lost connection: Disconnected
+[08:02:48] [Server thread/INFO]: nosdos left the game
+[08:04:37] [Server thread/INFO]: Stopping the server
+[08:04:37] [Server thread/INFO]: Stopping server
+[08:04:37] [Server thread/INFO]: Saving players
+[08:04:37] [Server thread/INFO]: Saving worlds
+[08:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:04:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:04:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:04:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:04:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:04:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

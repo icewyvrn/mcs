@@ -1,0 +1,49 @@
+{
+  "uuid": "2bf176b9-0082-364e-8b58-3ac46548a716",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "5e79ed57-ede0-400b-8577-3bbe93c19ad2",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 3,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 31,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 31,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "ghost": 1,
+      "poison": 1,
+      "normal": 1,
+      "electric": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:wooloo": 2,
+      "cobblemon:beldum": 1,
+      "cobblemon:nickit": 1,
+      "cobblemon:igglybuff": 1,
+      "cobblemon:spinarak": 1,
+      "cobblemon:comfey": 2,
+      "cobblemon:bunnelby": 2,
+      "cobblemon:rattata": 1,
+      "cobblemon:elekid": 1,
+      "cobblemon:miltank": 2,
+      "cobblemon:butterfree": 1,
+      "cobblemon:lechonk": 2,
+      "cobblemon:cottonee": 1,
+      "cobblemon:deerling": 1,
+      "cobblemon:geodude": 1,
+      "cobblemon:oinkologne": 1,
+      "cobblemon:vivillon": 1,
+      "cobblemon:magikarp": 2,
+      "cobblemon:mareep": 1
+    },
+    "aspectsCollected": {}
+  }
+}

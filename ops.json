@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "2bf176b9-0082-364e-8b58-3ac46548a716",
+    "name": "Seraph",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

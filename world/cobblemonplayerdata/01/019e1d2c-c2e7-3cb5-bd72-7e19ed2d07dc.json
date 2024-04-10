@@ -1,0 +1,35 @@
+{
+  "uuid": "019e1d2c-c2e7-3cb5-bd72-7e19ed2d07dc",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "fa889208-cf95-46bc-bcae-ad64d1095fc4",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 6,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 7,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 7,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "normal": 4,
+      "fairy": 1,
+      "flying": 2,
+      "rock": 1,
+      "ground": 1,
+      "ghost": 1,
+      "poison": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:zubat": 1,
+      "cobblemon:spinarak": 1
+    },
+    "aspectsCollected": {}
+  }
+}

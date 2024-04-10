@@ -1,0 +1,48 @@
+{
+  "uuid": "58915e89-97e5-3ad3-9ffd-4a71defa010b",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "a32af69d-812d-4596-b6c2-9a0b31e43780",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 9,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 4,
+    "totalBattleVictoryCount": 34,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 34,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "ghost": 6,
+      "poison": 5,
+      "steel": 1,
+      "ground": 1,
+      "bug": 1,
+      "fire": 1,
+      "electric": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:rattata": 5,
+      "cobblemon:pidgey": 1,
+      "cobblemon:taillow": 2,
+      "cobblemon:teddiursa": 1,
+      "cobblemon:vivillon": 1,
+      "cobblemon:geodude": 2,
+      "cobblemon:spinarak": 5,
+      "cobblemon:deerling": 1,
+      "cobblemon:igglybuff": 1,
+      "cobblemon:joltik": 2,
+      "cobblemon:nosepass": 1,
+      "cobblemon:golduck": 1,
+      "cobblemon:tauros": 1,
+      "cobblemon:butterfree": 1,
+      "cobblemon:caterpie": 2
+    },
+    "aspectsCollected": {}
+  }
+}

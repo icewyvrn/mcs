@@ -11,15 +11,24 @@
     "totalCaptureCount": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 1,
+    "totalBattleVictoryCount": 11,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 1,
+    "totalPvWBattleVictoryCount": 11,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {},
     "totalDefeatedCounts": {
-      "cobblemon:patrat": 1
+      "cobblemon:patrat": 1,
+      "cobblemon:zubat": 2,
+      "cobblemon:rookidee": 1,
+      "cobblemon:buneary": 1,
+      "cobblemon:pichu": 1,
+      "cobblemon:taillow": 1,
+      "cobblemon:timburr": 1,
+      "cobblemon:bunnelby": 1,
+      "cobblemon:cutiefly": 1,
+      "cobblemon:meowth": 1
     },
     "aspectsCollected": {}
   }

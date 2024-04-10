@@ -7,6 +7,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-04-09 11:35:06 +0000",
+      "minecraft:birch_forest": "2024-04-09 12:11:22 +0000",
+      "minecraft:wooded_badlands": "2024-04-09 12:11:24 +0000",
+      "minecraft:badlands": "2024-04-09 12:11:14 +0000",
+      "minecraft:savanna_plateau": "2024-04-09 12:10:55 +0000",
+      "minecraft:beach": "2024-04-09 11:39:40 +0000",
+      "minecraft:snowy_plains": "2024-04-09 12:34:56 +0000",
+      "minecraft:snowy_taiga": "2024-04-09 11:24:57 +0000",
+      "minecraft:forest": "2024-04-09 11:37:46 +0000",
+      "minecraft:windswept_forest": "2024-04-09 12:46:08 +0000",
+      "minecraft:warm_ocean": "2024-04-09 11:34:22 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-04-09 11:35:00 +0000",
       "minecraft:plains": "2024-04-09 06:43:12 +0000"
     },
     "done": false
@@ -14,6 +26,150 @@
   "cobblemon:root": {
     "criteria": {
       "picked_starter": "2024-04-09 06:50:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "adorn:root": {
+    "criteria": {
+      "has_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/silk_scarf": {
+    "criteria": {
+      "has_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/white_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-04-09 11:19:11 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_base_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 11:24:01 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:craft_all_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 11:24:01 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:craft_poke_ball": {
+    "criteria": {
+      "requirement": "2024-04-09 11:24:01 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:first_catch": {
+    "criteria": {
+      "catch": "2024-04-09 11:29:18 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2024-04-09 11:47:20 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-04-09 12:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-04-09 12:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-04-09 12:29:26 +0000"
     },
     "done": true
   },

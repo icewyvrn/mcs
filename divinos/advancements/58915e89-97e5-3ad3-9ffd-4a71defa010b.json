@@ -7,6 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-04-09 13:12:56 +0000",
+      "minecraft:snowy_plains": "2024-04-09 13:25:39 +0000",
+      "minecraft:forest": "2024-04-09 13:21:54 +0000",
       "minecraft:plains": "2024-04-09 10:15:17 +0000"
     },
     "done": false
@@ -14,6 +17,414 @@
   "cobblemon:root": {
     "criteria": {
       "picked_starter": "2024-04-09 10:15:47 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_base_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 13:13:14 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-04-09 13:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-04-09 13:13:14 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:craft_all_balls": {
+    "criteria": {
+      "poke_ball": "2024-04-09 13:13:14 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:craft_poke_ball": {
+    "criteria": {
+      "requirement": "2024-04-09 13:13:14 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_table": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_shelf": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_drawer": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_bench": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_step": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_coffee_table": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_chair": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_platform": {
+    "criteria": {
+      "has_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2024-04-09 13:13:44 +0000"
+    },
+    "done": true
+  },
+  "beansbackpacks:info/fluid_cauldrons": {
+    "criteria": {
+      "destroyed_bee_nest": "2024-04-09 13:14:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-04-09 13:16:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-04-09 13:16:18 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/dark_oak_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/crate": {
+    "criteria": {
+      "has_key_item_0": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/picket_fence": {
+    "criteria": {
+      "has_key_item_0": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/dark_oak_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/dark_oak_post": {
+    "criteria": {
+      "has_dark_oak_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/dark_oak_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-04-09 13:16:37 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:brew_all": {
+    "criteria": {
+      "obtain_potion": "2024-04-09 13:17:03 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2024-04-09 13:17:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-04-09 13:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-04-09 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-04-09 13:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-04-09 13:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-04-09 13:19:53 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/throat_spray": {
+    "criteria": {
+      "has_bottle": "2024-04-09 13:19:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mug": {
+    "criteria": {
+      "has_glass_bottle": "2024-04-09 13:19:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-04-09 13:21:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-04-09 13:21:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-04-09 13:21:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-04-09 13:21:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_post": {
+    "criteria": {
+      "has_jungle_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/jungle_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2024-04-09 13:25:49 +0000"
     },
     "done": true
   },
