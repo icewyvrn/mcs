@@ -11,9 +11,9 @@
     "totalCaptureCount": 6,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 7,
+    "totalBattleVictoryCount": 12,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 7,
+    "totalPvWBattleVictoryCount": 12,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -28,7 +28,11 @@
     },
     "totalDefeatedCounts": {
       "cobblemon:zubat": 1,
-      "cobblemon:spinarak": 1
+      "cobblemon:spinarak": 1,
+      "cobblemon:zigzagoon": 1,
+      "cobblemon:igglybuff": 2,
+      "cobblemon:scatterbug": 1,
+      "cobblemon:patrat": 1
     },
     "aspectsCollected": {}
   }
