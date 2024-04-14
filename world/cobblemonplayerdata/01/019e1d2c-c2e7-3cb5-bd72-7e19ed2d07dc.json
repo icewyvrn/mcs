@@ -8,32 +8,47 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 6,
+    "totalCaptureCount": 16,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 12,
+    "totalEvolvedCount": 2,
+    "totalBattleVictoryCount": 28,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 12,
+    "totalPvWBattleVictoryCount": 28,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 4,
+      "normal": 6,
       "fairy": 1,
-      "flying": 2,
-      "rock": 1,
-      "ground": 1,
-      "ghost": 1,
-      "poison": 1
+      "flying": 4,
+      "rock": 3,
+      "ground": 3,
+      "ghost": 3,
+      "poison": 1,
+      "water": 1,
+      "grass": 1,
+      "steel": 1,
+      "fire": 1,
+      "psychic": 1,
+      "bug": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:zubat": 1,
       "cobblemon:spinarak": 1,
       "cobblemon:zigzagoon": 1,
-      "cobblemon:igglybuff": 2,
+      "cobblemon:igglybuff": 3,
       "cobblemon:scatterbug": 1,
-      "cobblemon:patrat": 1
+      "cobblemon:patrat": 1,
+      "cobblemon:caterpie": 1,
+      "cobblemon:nickit": 1,
+      "cobblemon:bunnelby": 1,
+      "cobblemon:sableye": 1,
+      "cobblemon:mareep": 1
     },
-    "aspectsCollected": {}
+    "aspectsCollected": {
+      "cobblemon:vivillon": [
+        "vivillon-wings-continental"
+      ]
+    }
   }
 }

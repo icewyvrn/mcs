@@ -8,12 +8,12 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 9,
+    "totalCaptureCount": 10,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 4,
-    "totalBattleVictoryCount": 34,
+    "totalBattleVictoryCount": 45,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 34,
+    "totalPvWBattleVictoryCount": 45,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -24,15 +24,16 @@
       "ground": 1,
       "bug": 1,
       "fire": 1,
-      "electric": 1
+      "electric": 1,
+      "rock": 1
     },
     "totalDefeatedCounts": {
-      "cobblemon:rattata": 5,
+      "cobblemon:rattata": 6,
       "cobblemon:pidgey": 1,
       "cobblemon:taillow": 2,
       "cobblemon:teddiursa": 1,
       "cobblemon:vivillon": 1,
-      "cobblemon:geodude": 2,
+      "cobblemon:geodude": 3,
       "cobblemon:spinarak": 5,
       "cobblemon:deerling": 1,
       "cobblemon:igglybuff": 1,
@@ -40,8 +41,13 @@
       "cobblemon:nosepass": 1,
       "cobblemon:golduck": 1,
       "cobblemon:tauros": 1,
-      "cobblemon:butterfree": 1,
-      "cobblemon:caterpie": 2
+      "cobblemon:butterfree": 2,
+      "cobblemon:caterpie": 2,
+      "cobblemon:sizzlipede": 1,
+      "cobblemon:gengar": 1,
+      "cobblemon:lechonk": 2,
+      "cobblemon:zubat": 1,
+      "cobblemon:zigzagoon": 2
     },
     "aspectsCollected": {}
   }

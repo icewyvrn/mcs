@@ -1,12 +1,12 @@
-[08:10:15] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[08:10:16] [main/WARN]: Warnings were found!
+[04:19:06] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[04:19:06] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of modmenu-badges-lib, which is missing!
 	 - You should install any version of modmenu-badges-lib for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.7.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[08:10:16] [main/INFO]: Loading 79 mods:
+[04:19:06] [main/INFO]: Loading 79 mods:
 	- adorn 5.0.1+1.20.1
 	- architectury 9.2.14
 	- balm-fabric 7.2.2
@@ -100,145 +100,235 @@
 	   \-- mixinextras 0.3.5
 	- starterkit 6.5
 	- waystones 14.1.3
-[08:10:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/mcs/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[08:10:16] [main/INFO]: Compatibility level set to JAVA_16
-[08:10:16] [main/INFO]: Compatibility level set to JAVA_17
-[08:10:16] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[08:10:17] [main/WARN]: Reference map 'starterkit_fabric.refmap.json' for starterkit_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[08:10:17] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[08:10:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[08:10:30] [main/INFO]: Initializing Beans' Backpacks Constants
-[08:10:30] [main/INFO]: Initializing Beans' Backpacks Common
-[08:10:30] [main/INFO]: Registering Sounds for beansbackpacks
-[08:10:30] [main/INFO]: Initializing Beans' Backpacks Fabric
-[08:10:30] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[08:10:30] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
-[08:10:31] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[08:10:31] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[08:10:31] [main/ERROR]: No data fixer registered for cobblemon:boat
-[08:10:31] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[08:10:31] [main/INFO]: Starting the Best Spawner...
-[08:10:31] [main/INFO]: Loaded 5 spawning condition types.
-[08:10:31] [main/INFO]: Loaded 5 spawning context types.
-[08:10:31] [main/INFO]: Loaded 1 spawn detail types.
-[08:10:31] [Cobblemon Showdown/INFO]: Starting showdown service...
-[08:10:34] [Cobblemon Showdown/INFO]: Showdown has been started!
-[08:10:34] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[08:10:34] [main/INFO]: Registered the cobblemon:species_features registry
-[08:10:34] [main/INFO]: Registered the cobblemon:global_species_features registry
-[08:10:34] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[08:10:34] [main/INFO]: Registered the cobblemon:moves registry
-[08:10:34] [main/INFO]: Registered the cobblemon:abilities registry
-[08:10:34] [main/INFO]: Registered the cobblemon:species registry
-[08:10:34] [main/INFO]: Registered the cobblemon:species_additions registry
-[08:10:34] [main/INFO]: Registered the cobblemon:pokeballs registry
-[08:10:34] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[08:10:34] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[08:10:35] [main/INFO]: Registered the cobblemon:mechanics registry
-[08:10:35] [main/INFO]: Registered the cobblemon:bag_items registry
-[08:10:35] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[08:10:35] [main/INFO]: Registered the cobblemon:berries registry
-[08:10:35] [main/INFO]: Registered 12 blocks to Adorn
-[08:10:35] [main/INFO]: Loading Collective version 7.40.
-[08:10:35] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[08:10:35] [main/INFO]: Hello Fabric world from Fight or Flight!
-[08:10:35] [main/INFO]: Loading Noisium.
-[08:10:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:10:41] [main/INFO]: Reading Data for beansbackpacks
-[08:10:42] [main/INFO]: Loaded 9 recipes
-[08:10:43] [main/INFO]: Loaded 1928 advancements
-[08:10:48] [main/INFO]: Loaded 921 moves
-[08:10:48] [main/INFO]: Loaded 310 abilities
-[08:10:48] [main/INFO]: Finished additions
-[08:10:50] [main/INFO]: Imported 185 held item IDs from showdown
-[08:10:50] [main/INFO]: Loaded 1017 Pokémon species
-[08:10:50] [main/INFO]: Loaded 32 spawn detail presets.
-[08:10:50] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[08:10:51] [main/INFO]: Loaded 69 berries
-[08:10:52] [main/INFO]: Applied 598 biome modifications to 64 of 64 new biomes in 27.90 ms
-[08:10:52] [Server thread/INFO]:         __    
-[08:10:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
-[08:10:52] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.92.0+1.20.1
-[08:10:52] [Server thread/INFO]: 
-[08:10:52] [Server thread/INFO]: Loading configuration...
-[08:10:53] [Server thread/INFO]: Loading storage provider... [H2]
-[08:10:53] [Server thread/INFO]: Loading internal permission managers...
-[08:10:53] [Server thread/INFO]: Performing initial data load...
-[08:10:54] [Server thread/INFO]: Successfully enabled. (took 1198ms)
-[08:10:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[08:10:54] [Server thread/INFO]: Loading properties
-[08:10:54] [Server thread/INFO]: Default game type: SURVIVAL
-[08:10:54] [Server thread/INFO]: Generating keypair
-[08:10:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:10:54] [Server thread/INFO]: Using epoll channel type
-[08:10:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:10:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:10:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:10:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:10:54] [Server thread/INFO]: Preparing level "world"
-[08:11:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:11:12] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[08:11:12] [Server thread/INFO]: Time elapsed: 7797 ms
-[08:11:12] [Server thread/INFO]: Done (17.498s)! For help, type "help"
-[08:11:12] [Server thread/INFO]: Sh4dow_11[/[0:0:0:0:0:0:0:1%0]:38354] logged in with entity id 114 at (-5.5, 70.0, 4.5)
-[08:11:12] [Server thread/INFO]: Syncing beansbackpacks data to "Sh4dow_11"
-[08:11:13] [Server thread/INFO]: Sh4dow_11 joined the game
-[08:11:14] [Server thread/INFO]: Sh4dow_11 has made the advancement [The First of Many]
-[08:11:14] [Server thread/INFO]: Sh4dow_11 has made the advancement [You cannot handle my Potions]
-[08:11:24] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:56346] logged in with entity id 205 at (220.1053874152155, 69.0, 25.30000001192093)
-[08:11:24] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
-[08:11:24] [Server thread/INFO]: meep9000 joined the game
-[08:14:56] [Server thread/INFO]: meep9000 tried to swim in lava
-[08:16:04] [Server thread/INFO]: [Not Secure] <meep9000> xaero-waypoint:sidemountainbase:M:-140:104:-275:13:false:0:Internal-overworld-waypoints
-[08:22:37] [Server thread/INFO]: nosdos[/[0:0:0:0:0:0:0:1%0]:55100] logged in with entity id 10686 at (-139.49085334067777, 63.0, -63.56752135093254)
-[08:22:37] [Server thread/INFO]: Syncing beansbackpacks data to "nosdos"
-[08:22:37] [Server thread/INFO]: nosdos joined the game
-[08:22:46] [Server thread/INFO]: Sh4dow_11 has made the advancement [Light as a Rabbit]
-[08:25:53] [Server thread/INFO]: Sh4dow_11 has made the advancement [Stone Age]
-[08:26:34] [Server thread/INFO]: Sh4dow_11 has made the advancement [Getting an Upgrade]
-[08:27:44] [Server thread/INFO]: Sh4dow_11 has made the advancement [A New Friend!]
-[08:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6038ms or 120 ticks behind
-[08:32:37] [Server thread/WARN]: Sh4dow_11 moved too quickly! -2.322336289155828,-3.0,9.724797305002912
-[08:32:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3029ms or 60 ticks behind
-[08:33:17] [Server thread/INFO]: Sh4dow_11 lost connection: Disconnected
-[08:33:17] [Server thread/INFO]: Sh4dow_11 left the game
-[08:39:55] [Server thread/INFO]: No battle could be found with the id: c05b2698-0c60-4bdd-8ab2-049d7e291545
-[08:39:55] [Server thread/INFO]: No battle could be found with the id: c05b2698-0c60-4bdd-8ab2-049d7e291545
-[08:40:19] [Server thread/INFO]: [Not Secure] <meep9000> t
-[08:54:23] [Server thread/INFO]: meep9000 tried to swim in lava
-[08:54:36] [Server thread/INFO]: [Not Secure] <nosdos> HA
-[09:00:46] [Server thread/INFO]: meep9000 tried to swim in lava
-[09:04:04] [Server thread/INFO]: nosdos lost connection: Disconnected
-[09:04:04] [Server thread/INFO]: nosdos left the game
-[09:10:14] [Server thread/INFO]: There are 1 of a max of 1000 players online: meep9000
-[09:13:49] [Server thread/INFO]: meep9000 lost connection: Disconnected
-[09:13:49] [Server thread/INFO]: meep9000 left the game
-[09:15:03] [Server thread/INFO]: Stopping the server
-[09:15:04] [Server thread/INFO]: Starting shutdown process...
-[09:15:04] [Server thread/INFO]: Closing storage...
-[09:15:04] [Server thread/INFO]: Goodbye!
-[09:15:04] [Server thread/INFO]: Stopping server
-[09:15:04] [Server thread/INFO]: Saving players
-[09:15:04] [Server thread/INFO]: Saving worlds
-[09:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:19:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/mcs/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[04:19:07] [main/INFO]: Compatibility level set to JAVA_16
+[04:19:07] [main/INFO]: Compatibility level set to JAVA_17
+[04:19:07] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[04:19:07] [main/WARN]: Reference map 'starterkit_fabric.refmap.json' for starterkit_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:19:09] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[04:19:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[04:19:22] [main/INFO]: Initializing Beans' Backpacks Constants
+[04:19:22] [main/INFO]: Initializing Beans' Backpacks Common
+[04:19:22] [main/INFO]: Registering Sounds for beansbackpacks
+[04:19:22] [main/INFO]: Initializing Beans' Backpacks Fabric
+[04:19:22] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[04:19:22] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[04:19:22] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[04:19:22] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[04:19:22] [main/ERROR]: No data fixer registered for cobblemon:boat
+[04:19:22] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[04:19:23] [main/INFO]: Starting the Best Spawner...
+[04:19:23] [main/INFO]: Loaded 5 spawning condition types.
+[04:19:23] [main/INFO]: Loaded 5 spawning context types.
+[04:19:23] [main/INFO]: Loaded 1 spawn detail types.
+[04:19:23] [Cobblemon Showdown/INFO]: Starting showdown service...
+[04:19:26] [Cobblemon Showdown/INFO]: Showdown has been started!
+[04:19:26] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[04:19:26] [main/INFO]: Registered the cobblemon:species_features registry
+[04:19:26] [main/INFO]: Registered the cobblemon:global_species_features registry
+[04:19:26] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[04:19:26] [main/INFO]: Registered the cobblemon:moves registry
+[04:19:26] [main/INFO]: Registered the cobblemon:abilities registry
+[04:19:26] [main/INFO]: Registered the cobblemon:species registry
+[04:19:26] [main/INFO]: Registered the cobblemon:species_additions registry
+[04:19:26] [main/INFO]: Registered the cobblemon:pokeballs registry
+[04:19:26] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[04:19:26] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[04:19:26] [main/INFO]: Registered the cobblemon:mechanics registry
+[04:19:26] [main/INFO]: Registered the cobblemon:bag_items registry
+[04:19:26] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[04:19:26] [main/INFO]: Registered the cobblemon:berries registry
+[04:19:26] [main/INFO]: Registered 12 blocks to Adorn
+[04:19:26] [main/INFO]: Loading Collective version 7.40.
+[04:19:26] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[04:19:26] [main/INFO]: Hello Fabric world from Fight or Flight!
+[04:19:26] [main/INFO]: Loading Noisium.
+[04:19:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:19:29] [main/INFO]: Reading Data for beansbackpacks
+[04:19:31] [main/INFO]: Loaded 9 recipes
+[04:19:31] [main/INFO]: Loaded 1928 advancements
+[04:19:36] [main/INFO]: Loaded 921 moves
+[04:19:36] [main/INFO]: Loaded 310 abilities
+[04:19:37] [main/INFO]: Finished additions
+[04:19:39] [main/INFO]: Imported 185 held item IDs from showdown
+[04:19:39] [main/INFO]: Loaded 1017 Pokémon species
+[04:19:39] [main/INFO]: Loaded 32 spawn detail presets.
+[04:19:39] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[04:19:40] [main/INFO]: Loaded 69 berries
+[04:19:42] [main/INFO]: Applied 598 biome modifications to 64 of 64 new biomes in 55.22 ms
+[04:19:42] [Server thread/INFO]:         __    
+[04:19:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[04:19:42] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.92.0+1.20.1
+[04:19:42] [Server thread/INFO]: 
+[04:19:42] [Server thread/INFO]: Loading configuration...
+[04:19:43] [Server thread/INFO]: Loading storage provider... [H2]
+[04:19:44] [Server thread/INFO]: Loading internal permission managers...
+[04:19:44] [Server thread/INFO]: Performing initial data load...
+[04:19:44] [Server thread/INFO]: Successfully enabled. (took 1440ms)
+[04:19:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[04:19:44] [Server thread/INFO]: Loading properties
+[04:19:44] [Server thread/INFO]: Default game type: SURVIVAL
+[04:19:44] [Server thread/INFO]: Generating keypair
+[04:19:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:19:44] [Server thread/INFO]: Using epoll channel type
+[04:19:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:19:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:19:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:19:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:19:44] [Server thread/INFO]: Preparing level "world"
+[04:19:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:19:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:20:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:20:01] [Server thread/INFO]: Time elapsed: 8308 ms
+[04:20:01] [Server thread/INFO]: Done (16.185s)! For help, type "help"
+[04:24:35] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:40314] logged in with entity id 114 at (-147.3733144135127, 99.0, -261.23133739688967)
+[04:24:36] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
+[04:24:36] [Server thread/INFO]: meep9000 joined the game
+[04:26:07] [Server thread/INFO]: SlenderDX1530[/[0:0:0:0:0:0:0:1%0]:42930] logged in with entity id 371 at (-359.73627157003233, 46.0, 610.1865981901598)
+[04:26:07] [Server thread/INFO]: Syncing beansbackpacks data to "SlenderDX1530"
+[04:26:07] [Server thread/INFO]: SlenderDX1530 joined the game
+[04:28:35] [Server thread/INFO]: [Not Secure] <SlenderDX1530> meowww
+[04:31:47] [Server thread/INFO]: nosdos[/[0:0:0:0:0:0:0:1%0]:44206] logged in with entity id 2130 at (-117.32132703352472, 109.0, -279.02860959608785)
+[04:31:47] [Server thread/INFO]: Syncing beansbackpacks data to "nosdos"
+[04:31:47] [Server thread/INFO]: nosdos joined the game
+[04:31:52] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yow
+[04:32:02] [Server thread/INFO]: [Not Secure] <nosdos> hello
+[04:34:47] [Server thread/INFO]: nosdos has made the advancement [There's a Leek in the Boat!]
+[04:35:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> but walang legendary pokemon dito sa nether :x
+[04:35:53] [Server thread/INFO]: [Not Secure] <SlenderDX1530> xaero-waypoint:red forest:R:-624:58:893:9:false:0:Internal-the-nether-waypoints
+[04:36:02] [Server thread/INFO]: [Not Secure] <meep9000> sa online website merong certain areas nagiispawn sila
+[04:36:07] [Server thread/INFO]: No battle could be found with the id: e41e06f4-df75-4cf7-9645-2399876d5568
+[04:36:07] [Server thread/INFO]: No battle could be found with the id: e41e06f4-df75-4cf7-9645-2399876d5568
+[04:36:14] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :v
+[04:36:18] [Server thread/INFO]: [Not Secure] <meep9000> ang problema na pa ka rare ng biome
+[04:36:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ;o
+[04:40:54] [Server thread/INFO]: SlenderDX1530 has completed the challenge [Hot Tourist Destinations]
+[04:43:09] [Server thread/INFO]: nosdos has made the advancement [Hard Work and Dedication]
+[04:43:47] [Server thread/INFO]: SlenderDX1530 has made the advancement [Those Were the Days]
+[04:44:05] [Server thread/INFO]: SlenderDX1530 has made the advancement [War Pigs]
+[04:53:18] [Server thread/INFO]: SlenderDX1530 has made the advancement [Who is Cutting Onions?]
+[04:54:40] [Server thread/INFO]: [Not Secure] <SlenderDX1530> buti pede mag trade sa piglins
+[04:56:41] [Server thread/INFO]: SlenderDX1530 has made the advancement [Suit Up]
+[05:02:46] [Server thread/INFO]: nosdos has made the advancement [Herb your Enthusiasm]
+[05:03:26] [Server thread/INFO]: [Not Secure] <meep9000> sa woodland mansion pala nandun lahat ng eevelution exept for glace and leaf
+[05:03:42] [Server thread/INFO]: [Not Secure] <SlenderDX1530> hanap na hahha
+[05:03:53] [Server thread/INFO]: [Not Secure] <meep9000> kaya nga eh hahhaha
+[05:05:29] [Server thread/INFO]: meep9000 fell from a high place
+[05:05:33] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ooof
+[05:05:37] [Server thread/INFO]: [Not Secure] <meep9000> f
+[05:06:16] [Server thread/INFO]: [Not Secure] <SlenderDX1530> another bastion
+[05:07:29] [Server thread/INFO]: meep9000 has made the advancement [Full House]
+[05:09:54] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ooooh lanterns
+[05:10:11] [Server thread/INFO]: [Not Secure] <meep9000> nakawin mo hahaha
+[05:10:18] [Server thread/INFO]: [Not Secure] <SlenderDX1530> yun nga plan ahahha
+[05:25:10] [Server thread/INFO]: SlenderDX1530 has made the advancement [Oh Shiny]
+[05:25:32] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ohhh peaceful sila kahit di naka gold armor
+[05:25:40] [Server thread/INFO]: [Not Secure] <SlenderDX1530> di aatttack noice
+[05:26:23] [Server thread/INFO]: [Not Secure] <meep9000> hahaha sinet ni sep tong server to peaceful kaya walang umaatake
+[05:26:32] [Server thread/INFO]: SlenderDX1530 tried to swim in lava
+[05:26:46] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ye alam ko naka peaceful akala ko atttack parin haha
+[05:26:51] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pure passive na sila
+[05:27:51] [Server thread/INFO]: [Not Secure] <SlenderDX1530> woah
+[05:28:10] [Server thread/INFO]: [Not Secure] <SlenderDX1530> gumaganda na bahay ah
+[05:28:44] [Server thread/INFO]: [Not Secure] <meep9000> lol
+[05:29:06] [Server thread/INFO]: [Not Secure] <SlenderDX1530> grabi 16 nalang natira
+[05:29:10] [Server thread/INFO]: [Not Secure] <SlenderDX1530> na diamonds
+[05:29:15] [Server thread/INFO]: [Not Secure] <SlenderDX1530> hayz time to mine again
+[05:29:21] [Server thread/INFO]: [Not Secure] <meep9000> i caught a pegeot hahahhah
+[05:30:13] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need mo ng pickaxe na may silktouch?
+[05:30:43] [Server thread/INFO]: [Not Secure] <SlenderDX1530> i mine yung grassblock neto
+[05:30:44] [Server thread/INFO]: [Not Secure] <meep9000> lagay mo lang dyan baka kailanganin
+[05:30:45] [Server thread/INFO]: [Not Secure] <SlenderDX1530> at iba pa
+[05:30:48] [Server thread/INFO]: [Not Secure] <SlenderDX1530> okee
+[05:31:48] [Server thread/INFO]: [Not Secure] <SlenderDX1530> lantern nasa chest pati yung chains
+[05:32:00] [Server thread/INFO]: [Not Secure] <meep9000> hahah mabagal na flyer si pegeot
+[05:32:37] [Server thread/INFO]: SlenderDX1530 has made the advancement [Sweet Dreams]
+[05:32:42] [Server thread/INFO]: meep9000 lost connection: Timed out
+[05:32:42] [Server thread/INFO]: meep9000 left the game
+[05:32:50] [Server thread/INFO]: meep9000[/[0:0:0:0:0:0:0:1%0]:39420] logged in with entity id 115246 at (-153.24694992171348, 104.12012860064543, -269.55763472227903)
+[05:32:50] [Server thread/INFO]: Syncing beansbackpacks data to "meep9000"
+[05:32:51] [Server thread/INFO]: meep9000 joined the game
+[05:34:12] [Server thread/INFO]: [Not Secure] <meep9000> atleast may flyer
+[05:34:18] [Server thread/INFO]: [Not Secure] <meep9000> hahah
+[05:34:37] [Server thread/INFO]: meep9000 has made the advancement [Sweet Dreams]
+[05:35:38] [Server thread/INFO]: SlenderDX1530 has made the advancement [The Root of Basic Healing]
+[05:43:15] [Server thread/INFO]: [Not Secure] <SlenderDX1530> panu makakakuha pala ng ghast tear?
+[05:43:23] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need natin ng healing table
+[05:43:34] [Server thread/INFO]: [Not Secure] <nosdos> from a ghast
+[05:43:40] [Server thread/INFO]: [Not Secure] <SlenderDX1530> pero naka peaceful
+[05:43:44] [Server thread/INFO]: [Not Secure] <meep9000> kill a certain pokemon
+[05:43:57] [Server thread/INFO]: [Not Secure] <SlenderDX1530> penge list kung ano pokemon :')
+[05:45:28] [Server thread/INFO]: [STDOUT]: null
+[05:49:50] [Server thread/INFO]: [Not Secure] <meep9000> tumingin ako sa list mukhang walang drops for ghst tear sadge
+[05:58:02] [Server thread/INFO]: [Not Secure] <nosdos> finally caught an onix yessssirrrr
+[05:58:15] [Server thread/INFO]: [Not Secure] <SlenderDX1530> need mo link cable para ma evolve mo yan
+[05:59:37] [Server thread/INFO]: [Not Secure] [Server] kalbo
+[05:59:49] [Server thread/INFO]: [Not Secure] <SlenderDX1530> takting sep yan
+[05:59:56] [Server thread/INFO]: [Not Secure] <meep9000> xxddd
+[06:05:26] [Server thread/INFO]: [Not Secure] <SlenderDX1530> brid gawa ka nga sugarcane farm
+[06:05:32] [Server thread/INFO]: [Not Secure] <SlenderDX1530> para gawa ako enchanted table
+[06:05:38] [Server thread/INFO]: [Not Secure] <meep9000> gege
+[06:06:20] [Server thread/INFO]: [Not Secure] <nosdos> warden can't spawn in peaceful right?
+[06:06:37] [Server thread/INFO]: nosdos has made the advancement [Sneak 100]
+[06:06:42] [Server thread/INFO]: [Not Secure] <meep9000> nope
+[06:07:05] [Server thread/INFO]: [Not Secure] <SlenderDX1530> woah
+[06:07:10] [Server thread/INFO]: [Not Secure] <SlenderDX1530> walang wardan jan haha
+[06:07:15] [Server thread/INFO]: [Not Secure] <nosdos> kk
+[06:08:29] [Server thread/INFO]: [Not Secure] <meep9000> meron na akong plinant na sugar cane near lang ng pokeball farm
+[06:08:46] [Server thread/INFO]: [Not Secure] <SlenderDX1530> aight
+[06:08:50] [Server thread/INFO]: [Not Secure] <SlenderDX1530> gather marami hehe
+[06:12:22] [Server thread/INFO]: [Not Secure] <SlenderDX1530> ngl pag labas ko dito may stack of diamonds parating jan :)
+[06:25:03] [Server thread/INFO]: [Not Secure] <SlenderDX1530> F3 + H = shown durability
+[06:25:35] [Server thread/INFO]: [Not Secure] <SlenderDX1530> F3 + B = show hitbox
+[06:28:20] [Server thread/INFO]: meep9000 has made the advancement [Hard Work and Dedication]
+[06:29:02] [Server thread/INFO]: No battle could be found with the id: 1fa00bf5-c461-42f7-8951-60ac994c2cb6
+[06:29:02] [Server thread/INFO]: No battle could be found with the id: 1fa00bf5-c461-42f7-8951-60ac994c2cb6
+[06:36:24] [Server thread/INFO]: meep9000 has made the advancement [Too Heavy]
+[06:42:44] [Server thread/INFO]: [Not Secure] <meep9000> eyyy dark forest
+[06:42:52] [Server thread/INFO]: [Not Secure] <SlenderDX1530> find it
+[06:43:46] [Server thread/INFO]: SlenderDX1530 tried to swim in lava
+[06:44:53] [Server thread/INFO]: No battle could be found with the id: b0e218f7-83a0-4543-9251-b32f5fb6378a
+[06:44:53] [Server thread/INFO]: No battle could be found with the id: b0e218f7-83a0-4543-9251-b32f5fb6378a
+[06:46:31] [Server thread/INFO]: [Not Secure] <meep9000> ahahha magkakadikitdikit ang mga forest merong bamboo birch at jungle
+[06:46:37] [Server thread/INFO]: [Not Secure] <SlenderDX1530> :v
+[06:50:38] [Server thread/INFO]: [Not Secure] <meep9000> walng luck tong dark forest
+[06:52:14] [Server thread/INFO]: SlenderDX1530 has completed the challenge [Cover Me in Debris]
+[06:55:36] [Server thread/INFO]: SlenderDX1530 has made the advancement [Crafting a New Look]
+[06:57:02] [Server thread/INFO]: [Not Secure] <SlenderDX1530> wtf
+[06:57:04] [Server thread/INFO]: [Not Secure] <SlenderDX1530> comfey
+[06:57:12] [Server thread/INFO]: [Not Secure] <meep9000> lol
+[07:02:46] [Server thread/INFO]: meep9000 lost connection: Disconnected
+[07:02:46] [Server thread/INFO]: meep9000 left the game
+[07:25:59] [Server thread/INFO]: [Not Secure] <SlenderDX1530> maya me online
+[07:26:01] [Server thread/INFO]: SlenderDX1530 lost connection: Disconnected
+[07:26:01] [Server thread/INFO]: SlenderDX1530 left the game
+[07:27:15] [Server thread/INFO]: nosdos lost connection: Disconnected
+[07:27:15] [Server thread/INFO]: nosdos left the game
+[07:54:04] [Server thread/INFO]: Stopping the server
+[07:54:04] [Server thread/INFO]: Starting shutdown process...
+[07:54:04] [Server thread/INFO]: Closing storage...
+[07:54:05] [Server thread/INFO]: Goodbye!
+[07:54:05] [Server thread/INFO]: Stopping server
+[07:54:05] [Server thread/INFO]: Saving players
+[07:54:05] [Server thread/INFO]: Saving worlds
+[07:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:54:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:54:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:54:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:54:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:54:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
