@@ -3042,9 +3042,51 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-04-14 04:43:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-04-14 04:44:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-04-14 04:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-04-14 04:48:46 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/soothe_bell": {
+    "criteria": {
+      "has_nugget": "2024-04-14 04:48:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-04-14 04:48:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2024-04-14 04:53:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-04-14 04:53:18 +0000"
     },
     "done": true
   },
@@ -3054,27 +3096,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
     "criteria": {
-      "has_magma_cream": "2024-04-14 05:13:56 +0000"
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
     },
     "done": true
   },
-  "adorn:recipes/smooth_stone_step": {
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
     "criteria": {
-      "has_slab": "2024-04-14 06:53:17 +0000"
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
     },
     "done": true
   },
-  "cobblemon:recipes/held/flame_orb": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "has_orb": "2024-04-14 04:57:01 +0000"
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crimson_button": {
+  "adorn:recipes/polished_blackstone_brick_post": {
     "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/nether_brick_chimney": {
+    "criteria": {
+      "has_key_item_0": "2024-04-14 04:54:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-04-14 04:54:59 +0000"
     },
     "done": true
   },
@@ -3084,22 +3156,69 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+  "cobblemon:recipes/held/flame_orb": {
     "criteria": {
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:55:36 +0000",
-      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:56:32 +0000"
+      "has_orb": "2024-04-14 04:57:01 +0000"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+  "cobblemon:recipes/held/toxic_orb": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
+      "has_orb": "2024-04-14 04:57:01 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/life_orb": {
+    "criteria": {
+      "has_orb": "2024-04-14 04:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-04-14 05:13:56 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2024-04-14 05:16:54 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/amulet_coin": {
+    "criteria": {
+      "is_rich": "2024-04-14 05:16:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-04-14 05:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-04-14 05:18:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-14 05:18:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-04-14 05:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
     },
     "done": true
   },
@@ -3112,6 +3231,115 @@
   "minecraft:recipes/building_blocks/crimson_stairs": {
     "criteria": {
       "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/crimson_post": {
+    "criteria": {
+      "has_crimson_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/crimson_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/crimson_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/crimson_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-14 05:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-04-14 05:32:37 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy": {
+    "criteria": {
+      "has_root": "2024-04-14 05:35:38 +0000",
+      "has_the_recipe": "2024-04-14 05:35:38 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy_by_smoking": {
+    "criteria": {
+      "has_root": "2024-04-14 05:35:38 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy_by_campfire": {
+    "criteria": {
+      "has_root": "2024-04-14 05:35:38 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_big_root": {
+    "criteria": {
+      "check_inv": "2024-04-14 05:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-04-14 05:41:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2024-04-14 05:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_the_recipe": "2024-04-14 06:46:10 +0000"
     },
     "done": true
   },
@@ -3128,244 +3356,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2024-04-14 05:17:46 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/consumables/remedy": {
-    "criteria": {
-      "has_root": "2024-04-14 05:35:38 +0000",
-      "has_the_recipe": "2024-04-14 05:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_the_recipe": "2024-04-14 06:46:10 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/smooth_stone_platform": {
-    "criteria": {
-      "has_slab": "2024-04-14 06:53:17 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/consumables/remedy_by_smoking": {
-    "criteria": {
-      "has_root": "2024-04-14 05:35:38 +0000"
-    },
-    "done": true
-  },
   "cobblemon:recipes/balls/ultra_ball": {
     "criteria": {
       "has_black_apricorn": "2024-04-14 06:47:16 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2024-04-14 05:32:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crimson_sign": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/nether_brick_chimney": {
-    "criteria": {
-      "has_key_item_0": "2024-04-14 04:54:59 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/consumables/remedy_by_campfire": {
-    "criteria": {
-      "has_root": "2024-04-14 05:35:38 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/held/soothe_bell": {
-    "criteria": {
-      "has_nugget": "2024-04-14 04:48:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_door": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_trapdoor": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/trim_with_any_armor_pattern": {
-    "criteria": {
-      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:55:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
   "cobblemon:recipes/balls/slate_ball": {
     "criteria": {
       "has_black_apricorn": "2024-04-14 06:47:16 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/held/toxic_orb": {
-    "criteria": {
-      "has_orb": "2024-04-14 04:57:01 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/agriculture/red_apricorn_smelt_to_dye": {
-    "criteria": {
-      "has_apricorn": "2024-04-14 06:47:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2024-04-14 06:52:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/distract_piglin": {
-    "criteria": {
-      "distract_piglin": "2024-04-14 05:25:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/flower_banner_pattern": {
-    "criteria": {
-      "has_oxeye_daisy": "2024-04-14 07:11:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
-    "criteria": {
-      "has_azure_bluet": "2024-04-14 07:12:27 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/held/amulet_coin": {
-    "criteria": {
-      "is_rich": "2024-04-14 05:16:54 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/crimson_post": {
-    "criteria": {
-      "has_crimson_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
-    "criteria": {
-      "has_snout_armor_trim_smithing_template": "2024-04-14 05:18:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2024-04-14 04:54:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2024-04-14 04:53:18 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/polished_blackstone_brick_post": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/crimson_kitchen_sink": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/crimson_kitchen_counter": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_other": "2024-04-14 04:44:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2024-04-14 04:48:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-04-14 05:18:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crimson_fence": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2024-04-14 05:41:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/armor_stand": {
-    "criteria": {
-      "has_stone_slab": "2024-04-14 06:53:17 +0000"
     },
     "done": true
   },
@@ -3376,63 +3375,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+  "cobblemon:recipes/agriculture/red_apricorn_smelt_to_dye": {
     "criteria": {
-      "has_cornflower": "2024-04-14 07:11:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/crimson_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-04-14 04:53:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2024-04-14 04:43:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
-    "criteria": {
-      "has_oxeye_daisy": "2024-04-14 07:11:20 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:obtain_big_root": {
-    "criteria": {
-      "check_inv": "2024-04-14 05:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/anvil": {
-    "criteria": {
-      "has_iron_block": "2024-04-14 04:48:46 +0000"
-    },
-    "done": true
-  },
-  "adorn:recipes/crimson_kitchen_cupboard": {
-    "criteria": {
-      "has_planks": "2024-04-14 05:32:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_copper": {
-    "criteria": {
-      "has_raw_copper_block": "2024-04-14 05:52:43 +0000"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/held/life_orb": {
-    "criteria": {
-      "has_orb": "2024-04-14 04:57:01 +0000"
+      "has_apricorn": "2024-04-14 06:47:38 +0000"
     },
     "done": true
   },
@@ -3442,9 +3387,641 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "has_iron_nugget": "2024-04-14 04:48:58 +0000"
+      "netherite_armor": "2024-04-14 06:52:14 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/smooth_stone_step": {
+    "criteria": {
+      "has_slab": "2024-04-14 06:53:17 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/smooth_stone_platform": {
+    "criteria": {
+      "has_slab": "2024-04-14 06:53:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-04-14 06:53:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:55:36 +0000",
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:56:32 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2024-04-14 06:55:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-04-14 07:11:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-04-14 07:11:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-04-14 07:11:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-04-14 07:12:27 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/sandstone_step": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:12:14 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/diorite_platform": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:13:08 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cyan_table_lamp": {
+    "criteria": {
+      "has_carpet": "2024-04-15 08:12:55 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/soft_sand": {
+    "criteria": {
+      "has_sand": "2024-04-15 05:41:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cobblemon/apricorn_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_chiseled_sandstone": "2024-04-15 08:09:15 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_granite_post": {
+    "criteria": {
+      "has_polished_granite": "2024-04-15 08:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/sandstone_platform": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:12:14 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_slab": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2024-04-15 08:10:51 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cut_sandstone_step": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:12:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/black_table_lamp": {
+    "criteria": {
+      "has_carpet": "2024-04-15 08:13:19 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_table": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-04-15 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cut_sandstone_post": {
+    "criteria": {
+      "has_cut_sandstone": "2024-04-15 08:20:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2024-04-15 08:12:14 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_chair": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_shelf": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:catch_all_vivillon": {
+    "criteria": {
+      "monsoon": "2024-04-15 09:45:01 +0000",
+      "modern": "2024-04-15 09:43:09 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cobblemon/apricorn_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-04-15 06:04:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-04-15 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-04-15 08:20:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-04-15 08:20:38 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_button": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/quartz_platform": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-04-15 08:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cut_sandstone_platform": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:12:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-15 08:13:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_sign": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2024-04-15 08:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/light_gray_table_lamp": {
+    "criteria": {
+      "has_carpet": "2024-04-15 08:09:42 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_coffee_table": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/diorite_step": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:13:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2024-04-15 08:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-04-15 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/quartz_step": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:16:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_sandstone": "2024-04-15 08:09:15 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_diorite_post": {
+    "criteria": {
+      "has_polished_diorite": "2024-04-15 08:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_bench": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2024-04-15 08:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_fence": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-04-15 08:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cobblemon/apricorn_post": {
+    "criteria": {
+      "has_apricorn_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-15 08:13:53 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_andesite_post": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-15 08:13:53 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/smooth_sandstone_post": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-04-15 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2024-04-15 08:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-15 08:13:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-04-15 05:41:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_drawer": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-04-15 08:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-04-15 08:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-15 08:17:50 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:healing_machine": {
+    "criteria": {
+      "use_healing_machine": "2024-04-15 05:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-15 06:35:21 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_door": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-04-15 08:13:53 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/cobblemon/apricorn_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-15 06:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2024-04-15 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_platform": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_step": {
+    "criteria": {
+      "has_slab": "2024-04-15 08:22:44 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/white_table_lamp": {
+    "criteria": {
+      "has_carpet": "2024-04-15 08:12:47 +0000"
     },
     "done": true
   },

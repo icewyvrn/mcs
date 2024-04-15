@@ -8,21 +8,24 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 7,
+    "totalCaptureCount": 18,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 1,
-    "totalBattleVictoryCount": 14,
+    "totalBattleVictoryCount": 32,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 14,
+    "totalPvWBattleVictoryCount": 32,
     "totalPvNBattleVictoryCount": 0,
-    "totalShinyCaptureCount": 0,
+    "totalShinyCaptureCount": 1,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "bug": 1,
-      "fairy": 2,
-      "normal": 4,
-      "psychic": 2,
-      "flying": 1
+      "bug": 3,
+      "fairy": 6,
+      "normal": 9,
+      "psychic": 4,
+      "flying": 3,
+      "ghost": 1,
+      "water": 1,
+      "ice": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:geodude": 1,
@@ -31,7 +34,14 @@
       "cobblemon:seedot": 1,
       "cobblemon:vivillon": 1,
       "cobblemon:kakuna": 3,
-      "cobblemon:kricketot": 1
+      "cobblemon:kricketot": 1,
+      "cobblemon:mareep": 3,
+      "cobblemon:wooloo": 1,
+      "cobblemon:pidgey": 2,
+      "cobblemon:fletchling": 1,
+      "cobblemon:doduo": 1,
+      "cobblemon:rattata": 1,
+      "cobblemon:watchog": 1
     },
     "aspectsCollected": {}
   }
