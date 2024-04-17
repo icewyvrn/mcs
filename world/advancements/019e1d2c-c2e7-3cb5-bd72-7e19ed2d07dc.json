@@ -705,7 +705,8 @@
       "ultra_ball": "2024-04-15 05:16:01 +0000",
       "slate_ball": "2024-04-10 06:36:43 +0000",
       "citrine_ball": "2024-04-10 07:07:19 +0000",
-      "roseate_ball": "2024-04-10 06:29:50 +0000"
+      "roseate_ball": "2024-04-10 06:29:50 +0000",
+      "master_ball": "2024-04-17 06:00:54 +0000"
     },
     "done": false
   },
@@ -3145,27 +3146,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2024-04-15 09:23:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2024-04-15 09:23:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2024-04-15 09:10:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2024-04-15 09:23:55 +0000"
     },
     "done": true
   },
@@ -3181,21 +3164,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leather_horse_armor": {
+  "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2024-04-15 09:23:55 +0000"
     },
     "done": true
   },
-  "beansbackpacks:beansbackpacks": {
+  "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
-      "requirement": "2024-04-15 09:24:23 +0000"
+      "has_leather": "2024-04-15 09:23:55 +0000"
     },
     "done": true
   },
-  "beansbackpacks:interactions/place": {
+  "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "requirement": "2024-04-15 09:28:23 +0000"
+      "has_leather": "2024-04-15 09:23:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-04-15 09:23:55 +0000"
     },
     "done": true
   },
@@ -3214,6 +3203,42 @@
   "beansbackpacks:recipes/leather_backpack": {
     "criteria": {
       "has_leather": "2024-04-15 09:23:55 +0000"
+    },
+    "done": true
+  },
+  "beansbackpacks:beansbackpacks": {
+    "criteria": {
+      "requirement": "2024-04-15 09:24:23 +0000"
+    },
+    "done": true
+  },
+  "beansbackpacks:interactions/place": {
+    "criteria": {
+      "requirement": "2024-04-15 09:28:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-04-17 05:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-04-17 05:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-04-17 05:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2024-04-17 05:26:58 +0000"
     },
     "done": true
   },

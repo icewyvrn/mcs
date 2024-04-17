@@ -1,0 +1,86 @@
+{
+  "history": [
+    {
+      "pokemonUuid": "cba458ad-588c-4fdd-a64b-cc4c4713c17d",
+      "time": 1713330716463,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "ee3d7b78-d442-4b76-83e3-0bdce544d0a6",
+      "time": 1713332570663,
+      "type": "DESPAWNED",
+      "playerSpawned": "meep9000",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Dark forest"
+    },
+    {
+      "pokemonUuid": "898da0c4-ea83-40e5-8b42-bdbb0098dade",
+      "time": 1713334401909,
+      "type": "DESPAWNED",
+      "playerSpawned": "Sh4dow_11",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Plains"
+    },
+    {
+      "pokemonUuid": "9e8d7aca-f8cb-4c58-a5ac-fdaeadf8bbcd",
+      "time": 1713336229811,
+      "type": "CAPTURED",
+      "playerSpawned": "SlenderDX1530",
+      "playerActed": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "efb64c49-ca39-4473-a346-c27164c1df57",
+      "time": 1713338341260,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "2773f4e1-f6e4-4435-943e-3d8324156653",
+      "time": 1713340138522,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "a9e5d9f4-06ec-42d9-8fe2-425e42107fb3",
+      "time": 1713341966807,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Cherry grove"
+    },
+    {
+      "pokemonUuid": "d0e09104-9cb3-43fa-a899-129b05aad1a3",
+      "time": 1713343738458,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "55a48057-553b-43ad-94b3-6fcbbd11a739",
+      "time": 1713345580007,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    }
+  ]
+}
