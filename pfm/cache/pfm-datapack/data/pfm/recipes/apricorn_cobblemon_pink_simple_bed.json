@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "minecraft:pink_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:apricorn_cobblemon_pink_simple_bed"
+  }
+}

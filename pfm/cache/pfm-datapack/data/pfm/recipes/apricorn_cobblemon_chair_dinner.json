@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:apricorn_cobblemon_chair_dinner"
+  }
+}

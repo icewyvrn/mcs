@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:stripped_apricorn_cobblemon_kitchen_wall_counter"
+  }
+}

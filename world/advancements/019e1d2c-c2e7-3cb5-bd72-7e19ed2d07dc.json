@@ -22,14 +22,19 @@
       "minecraft:snowy_slopes": "2024-04-15 05:58:35 +0000",
       "minecraft:taiga": "2024-04-10 07:00:52 +0000",
       "minecraft:deep_ocean": "2024-04-10 08:24:26 +0000",
+      "minecraft:eroded_badlands": "2024-04-19 01:52:10 +0000",
       "minecraft:frozen_river": "2024-04-15 06:11:40 +0000",
       "minecraft:cherry_grove": "2024-04-10 06:01:41 +0000",
       "minecraft:sunflower_plains": "2024-04-14 04:45:29 +0000",
       "minecraft:birch_forest": "2024-04-10 06:58:24 +0000",
       "minecraft:windswept_hills": "2024-04-15 06:23:29 +0000",
+      "minecraft:bamboo_jungle": "2024-04-19 00:56:52 +0000",
+      "minecraft:badlands": "2024-04-19 01:49:57 +0000",
       "minecraft:beach": "2024-04-14 04:52:58 +0000",
       "minecraft:dark_forest": "2024-04-10 07:13:06 +0000",
+      "minecraft:sparse_jungle": "2024-04-19 01:16:36 +0000",
       "minecraft:river": "2024-04-10 06:23:14 +0000",
+      "minecraft:lukewarm_ocean": "2024-04-19 00:56:45 +0000",
       "minecraft:stony_shore": "2024-04-14 05:41:08 +0000",
       "minecraft:snowy_plains": "2024-04-15 05:58:14 +0000",
       "minecraft:dripstone_caves": "2024-04-10 06:23:42 +0000",
@@ -41,16 +46,20 @@
       "minecraft:lush_caves": "2024-04-14 05:01:07 +0000",
       "minecraft:deep_cold_ocean": "2024-04-15 05:40:46 +0000",
       "minecraft:frozen_ocean": "2024-04-15 05:54:21 +0000",
+      "minecraft:desert": "2024-04-19 01:51:40 +0000",
       "minecraft:deep_frozen_ocean": "2024-04-15 06:34:19 +0000",
       "minecraft:windswept_forest": "2024-04-15 06:23:34 +0000",
       "minecraft:ocean": "2024-04-10 08:23:19 +0000",
+      "minecraft:jungle": "2024-04-19 01:15:03 +0000",
       "minecraft:snowy_beach": "2024-04-15 06:57:02 +0000",
       "minecraft:windswept_savanna": "2024-04-14 04:52:17 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-04-19 00:58:10 +0000",
       "minecraft:flower_forest": "2024-04-10 06:32:54 +0000",
       "minecraft:frozen_peaks": "2024-04-15 06:00:07 +0000",
       "minecraft:old_growth_birch_forest": "2024-04-10 07:01:05 +0000",
       "minecraft:deep_dark": "2024-04-14 06:06:26 +0000",
       "minecraft:meadow": "2024-04-10 06:52:47 +0000",
+      "minecraft:savanna": "2024-04-19 01:37:19 +0000",
       "minecraft:plains": "2024-04-10 05:59:10 +0000"
     },
     "done": false
@@ -87,6 +96,8 @@
   },
   "cobblemon:obtain_all_berries": {
     "criteria": {
+      "obtain_rawst_berry": "2024-04-19 01:38:06 +0000",
+      "obtain_kebia_berry": "2024-04-19 05:18:44 +0000",
       "obtain_aspear_berry": "2024-04-15 05:58:18 +0000",
       "obtain_chesto_berry": "2024-04-10 06:58:30 +0000",
       "obtain_roseli_berry": "2024-04-14 06:02:39 +0000",
@@ -3218,6 +3229,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2024-04-17 05:26:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2024-04-17 05:28:45 +0000"
@@ -3236,9 +3253,346 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "has_orange_tulip": "2024-04-17 05:26:58 +0000"
+      "entered_nether": "2024-04-19 01:02:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-04-19 01:02:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-04-19 01:02:10 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-04-19 01:02:29 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_cupboard": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/spruce_post": {
+    "criteria": {
+      "has_spruce_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-19 01:05:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-04-19 01:32:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-04-19 01:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-04-19 02:07:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_granite_post": {
+    "criteria": {
+      "has_polished_granite": "2024-04-19 04:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-04-19 03:17:37 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy": {
+    "criteria": {
+      "has_root": "2024-04-19 03:14:03 +0000",
+      "has_the_recipe": "2024-04-19 03:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-04-19 03:58:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-04-19 03:17:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy_by_smoking": {
+    "criteria": {
+      "has_root": "2024-04-19 03:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-04-19 03:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/remedy_by_campfire": {
+    "criteria": {
+      "has_root": "2024-04-19 03:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/choice_specs": {
+    "criteria": {
+      "has_glasses": "2024-04-19 04:32:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-04-19 04:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2024-04-19 04:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2024-04-19 04:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-04-19 05:21:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2024-04-19 04:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-04-19 03:57:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-04-19 03:17:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/assault_vest": {
+    "criteria": {
+      "has_protector": "2024-04-19 04:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/smooth_rock": {
+    "criteria": {
+      "has_stone": "2024-04-19 03:17:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:obtain_big_root": {
+    "criteria": {
+      "check_inv": "2024-04-19 03:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-19 03:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-04-19 05:21:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-04-19 05:21:24 +0000"
     },
     "done": true
   },

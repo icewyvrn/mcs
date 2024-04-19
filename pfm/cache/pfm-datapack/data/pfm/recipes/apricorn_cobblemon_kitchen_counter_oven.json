@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:apricorn_cobblemon_kitchen_counter_oven"
+  }
+}

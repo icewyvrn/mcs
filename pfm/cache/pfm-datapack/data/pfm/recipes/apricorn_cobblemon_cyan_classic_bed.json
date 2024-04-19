@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "minecraft:cyan_bed"
+    },
+    {
+      "item": "cobblemon:apricorn_fence"
+    },
+    {
+      "item": "cobblemon:apricorn_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:apricorn_cobblemon_cyan_classic_bed"
+  }
+}

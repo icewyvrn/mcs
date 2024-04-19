@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_apricorn_cobblemon_kitchen_drawer"
+  }
+}

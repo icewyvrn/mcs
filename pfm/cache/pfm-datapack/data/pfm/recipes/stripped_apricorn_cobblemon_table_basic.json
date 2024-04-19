@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:apricorn_planks"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    },
+    {
+      "item": "cobblemon:stripped_apricorn_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_apricorn_cobblemon_table_basic"
+  }
+}

@@ -21,6 +21,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-04-10 02:51:53 +0000",
       "minecraft:taiga": "2024-04-14 06:23:59 +0000",
+      "minecraft:deep_ocean": "2024-04-19 01:32:01 +0000",
       "minecraft:cherry_grove": "2024-04-10 02:45:55 +0000",
       "minecraft:sunflower_plains": "2024-04-15 05:35:25 +0000",
       "minecraft:birch_forest": "2024-04-14 05:05:13 +0000",
@@ -31,13 +32,17 @@
       "minecraft:dark_forest": "2024-04-14 06:40:59 +0000",
       "minecraft:sparse_jungle": "2024-04-15 06:21:42 +0000",
       "minecraft:river": "2024-04-10 03:29:34 +0000",
+      "minecraft:lukewarm_ocean": "2024-04-19 01:41:12 +0000",
       "minecraft:stony_shore": "2024-04-10 02:48:45 +0000",
       "minecraft:dripstone_caves": "2024-04-10 04:15:19 +0000",
       "minecraft:forest": "2024-04-14 04:58:19 +0000",
       "minecraft:lush_caves": "2024-04-15 07:10:37 +0000",
+      "minecraft:desert": "2024-04-19 01:44:07 +0000",
       "minecraft:jungle": "2024-04-15 06:20:48 +0000",
       "minecraft:ocean": "2024-04-15 06:44:52 +0000",
       "minecraft:windswept_savanna": "2024-04-17 07:24:39 +0000",
+      "minecraft:warm_ocean": "2024-04-19 01:42:06 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-04-19 02:15:20 +0000",
       "minecraft:flower_forest": "2024-04-10 03:29:39 +0000",
       "minecraft:old_growth_birch_forest": "2024-04-14 05:04:33 +0000",
       "minecraft:meadow": "2024-04-10 05:31:40 +0000",
@@ -3912,6 +3917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2024-04-18 12:52:26 +0000"
+    },
+    "done": true
+  },
   "adorn:recipes/mangrove_kitchen_sink": {
     "criteria": {
       "has_planks": "2024-04-18 12:56:50 +0000"
@@ -3972,12 +3983,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_wood": {
-    "criteria": {
-      "has_log": "2024-04-18 12:52:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/mangrove_button": {
     "criteria": {
       "has_planks": "2024-04-18 12:56:50 +0000"
@@ -3993,6 +3998,1334 @@
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2024-04-18 12:56:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_the_recipe": "2024-04-19 01:28:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2024-04-19 01:28:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-04-19 03:50:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-04-19 03:50:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-04-19 03:50:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-04-19 04:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-04-19 04:55:11 +0000"
+    },
+    "done": true
+  },
+  "pfm:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2024-04-19 05:34:16 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/root": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_simple_bunk_ladder": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_chair": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:43 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_simple_bunk_ladder": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_chair": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:34:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_chair": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/iron_freezer": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/iron_stove": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/kitchen_stovetop": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_simple_bunk_ladder": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/iron_fridge": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/iron_microwave": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/iron_oven_range_hood": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:35:32 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-19 05:45:13 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/candlelit_lantern": {
+    "criteria": {
+      "has_candle": "2024-04-19 05:49:40 +0000"
+    },
+    "done": true
+  },
+  "adorn:candlelit_lantern": {
+    "criteria": {
+      "has_candlelit_lantern": "2024-04-19 05:51:02 +0000"
+    },
+    "done": true
+  },
+  "adorn:everything": {
+    "criteria": {
+      "has_coffee_table": "2024-04-19 06:59:34 +0000",
+      "has_stone_torch": "2024-04-19 06:51:13 +0000",
+      "has_candlelit_lantern": "2024-04-19 05:51:02 +0000"
+    },
+    "done": false
+  },
+  "pfm:recipes/furniture/white_shower_towel": {
+    "criteria": {
+      "has_white_wool": "2024-04-19 05:55:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_classic_white": {
+    "criteria": {
+      "oak_chair_classic_white": "2024-04-19 05:55:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/acacia_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/acacia_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/bamboo_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/crimson_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/apricorn_cobblemon_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/crimson_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/apricorn_cobblemon_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/jungle_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/warped_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/spruce_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/jungle_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/bamboo_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_pink_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/warped_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/spruce_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_pink_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:03:29 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/bamboo_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/jungle_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/acacia_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/spruce_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/warped_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/crimson_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/spruce_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/warped_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/jungle_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/apricorn_cobblemon_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/apricorn_cobblemon_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/crimson_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/mangrove_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/bamboo_white_classic_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/acacia_white_simple_bed": {
+    "criteria": {
+      "has_bed": "2024-04-19 06:08:57 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cherry_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-19 06:18:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2024-04-19 06:22:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_mangrove_wood": {
+    "criteria": {
+      "has_log": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_chair": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_mangrove_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-19 06:27:04 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/lime_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/pink_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/orange_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/red_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/magenta_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/brown_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/purple_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/green_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/blue_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/red_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/arm_chair_leather": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/brown_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cyan_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/white_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/black_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/purple_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/cyan_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/building_blocks/cherry_herringbone_planks": {
+    "criteria": {
+      "has_wood_slabs": "2024-04-19 06:59:05 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/yellow_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/light_gray_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/green_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/lime_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/light_gray_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:stone_torch": {
+    "criteria": {
+      "has_stone_torch": "2024-04-19 06:51:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/yellow_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/white_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:chair": {
+    "criteria": {
+      "sit_on_chair": "2024-04-19 07:13:05 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/gray_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/pink_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:coffee_table": {
+    "criteria": {
+      "has_coffee_table": "2024-04-19 06:59:34 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/black_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/blue_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/gray_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/light_blue_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/magenta_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/orange_simple_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/light_blue_arm_chair": {
+    "criteria": {
+      "has_wool": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-19 07:01:26 +0000"
     },
     "done": true
   },
