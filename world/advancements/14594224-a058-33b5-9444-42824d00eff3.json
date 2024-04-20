@@ -4532,8 +4532,10 @@
   "adorn:everything": {
     "criteria": {
       "has_coffee_table": "2024-04-19 06:59:34 +0000",
+      "has_drawer": "2024-04-20 13:38:17 +0000",
       "has_stone_torch": "2024-04-19 06:51:13 +0000",
-      "has_candlelit_lantern": "2024-04-19 05:51:02 +0000"
+      "has_candlelit_lantern": "2024-04-19 05:51:02 +0000",
+      "has_table_lamp": "2024-04-20 12:48:13 +0000"
     },
     "done": false
   },
@@ -5047,6 +5049,24 @@
     },
     "done": true
   },
+  "adorn:stone_torch": {
+    "criteria": {
+      "has_stone_torch": "2024-04-19 06:51:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/building_blocks/cherry_herringbone_planks": {
+    "criteria": {
+      "has_wood_slabs": "2024-04-19 06:59:05 +0000"
+    },
+    "done": true
+  },
+  "adorn:coffee_table": {
+    "criteria": {
+      "has_coffee_table": "2024-04-19 06:59:34 +0000"
+    },
+    "done": true
+  },
   "pfm:recipes/furniture/lime_simple_sofa": {
     "criteria": {
       "has_wool": "2024-04-19 07:01:26 +0000"
@@ -5179,12 +5199,6 @@
     },
     "done": true
   },
-  "pfm:recipes/building_blocks/cherry_herringbone_planks": {
-    "criteria": {
-      "has_wood_slabs": "2024-04-19 06:59:05 +0000"
-    },
-    "done": true
-  },
   "pfm:recipes/furniture/yellow_arm_chair": {
     "criteria": {
       "has_wool": "2024-04-19 07:01:26 +0000"
@@ -5221,12 +5235,6 @@
     },
     "done": true
   },
-  "adorn:stone_torch": {
-    "criteria": {
-      "has_stone_torch": "2024-04-19 06:51:13 +0000"
-    },
-    "done": true
-  },
   "pfm:recipes/furniture/yellow_simple_sofa": {
     "criteria": {
       "has_wool": "2024-04-19 07:01:26 +0000"
@@ -5239,12 +5247,6 @@
     },
     "done": true
   },
-  "adorn:chair": {
-    "criteria": {
-      "sit_on_chair": "2024-04-19 07:13:05 +0000"
-    },
-    "done": true
-  },
   "pfm:recipes/furniture/gray_simple_sofa": {
     "criteria": {
       "has_wool": "2024-04-19 07:01:26 +0000"
@@ -5254,12 +5256,6 @@
   "pfm:recipes/furniture/pink_simple_sofa": {
     "criteria": {
       "has_wool": "2024-04-19 07:01:26 +0000"
-    },
-    "done": true
-  },
-  "adorn:coffee_table": {
-    "criteria": {
-      "has_coffee_table": "2024-04-19 06:59:34 +0000"
     },
     "done": true
   },
@@ -5326,6 +5322,1044 @@
   "pfm:recipes/furniture/oak_kitchen_cabinet": {
     "criteria": {
       "has_planks": "2024-04-19 07:01:26 +0000"
+    },
+    "done": true
+  },
+  "adorn:chair": {
+    "criteria": {
+      "sit_on_chair": "2024-04-19 07:13:05 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/white_table_lamp": {
+    "criteria": {
+      "has_carpet": "2024-04-20 12:45:06 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:45:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_classic": {
+    "criteria": {
+      "deepslate_table_classic": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_deepslate_post": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_dinner": {
+    "criteria": {
+      "deepslate_chair_dinner": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_modern_dinner": {
+    "criteria": {
+      "deepslate_table_modern_dinner": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair": {
+    "criteria": {
+      "deepslate_chair": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_basic": {
+    "criteria": {
+      "deepslate_table_basic": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_classic_nightstand": {
+    "criteria": {
+      "deepslate_classic_nightstand": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_modern": {
+    "criteria": {
+      "deepslate_chair_modern": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_natural": {
+    "criteria": {
+      "deepslate_table_natural": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_dinner": {
+    "criteria": {
+      "deepslate_table_dinner": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_classic": {
+    "criteria": {
+      "deepslate_chair_classic": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-20 12:47:22 +0000"
+    },
+    "done": true
+  },
+  "adorn:table_lamp": {
+    "criteria": {
+      "has_table_lamp": "2024-04-20 12:48:13 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 12:58:52 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_step": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_table": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_platform": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_shelf": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/building_blocks/mangrove_herringbone_planks": {
+    "criteria": {
+      "has_wood_slabs": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_chair": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_drawer": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_coffee_table": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/mangrove_bench": {
+    "criteria": {
+      "has_slab": "2024-04-20 13:37:59 +0000"
+    },
+    "done": true
+  },
+  "adorn:drawer": {
+    "criteria": {
+      "has_drawer": "2024-04-20 13:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_chair": {
+    "criteria": {
+      "stone_chair": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_table_dinner": {
+    "criteria": {
+      "stone_table_dinner": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_table_modern_dinner": {
+    "criteria": {
+      "stone_table_modern_dinner": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_chair_modern": {
+    "criteria": {
+      "stone_chair_modern": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_chair_classic": {
+    "criteria": {
+      "stone_chair_classic": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_table_classic": {
+    "criteria": {
+      "stone_table_classic": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_table_basic": {
+    "criteria": {
+      "stone_table_basic": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_classic_nightstand": {
+    "criteria": {
+      "stone_classic_nightstand": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_chair_dinner": {
+    "criteria": {
+      "stone_chair_dinner": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/stone_post": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stone_table_natural": {
+    "criteria": {
+      "stone_table_natural": "2024-04-20 13:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/smooth_stone_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/smooth_stone_post": {
+    "criteria": {
+      "has_smooth_stone": "2024-04-20 13:48:20 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/pasture": {
+    "criteria": {
+      "has_pc": "2024-04-20 13:53:37 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_simple_bunk_ladder": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_classic_brown": {
+    "criteria": {
+      "oak_chair_classic_brown": "2024-04-20 14:13:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:use_pasture": {
+    "criteria": {
+      "use_pasture": "2024-04-20 13:56:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/brown_shower_towel": {
+    "criteria": {
+      "has_brown_wool": "2024-04-20 14:13:20 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_chair": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_chair": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 14:12:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_simple_bunk_ladder": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-04-20 13:55:25 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_table_log": {
+    "criteria": {
+      "has_log": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:39 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/birch_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:08:45 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_cherry_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-20 14:12:03 +0000"
     },
     "done": true
   },

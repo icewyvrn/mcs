@@ -222,6 +222,43 @@
       "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
       "dimension": "minecraft:overworld",
       "biome": "Flower forest"
+    },
+    {
+      "pokemonUuid": "035ff3b1-5886-46e5-b6c4-080b8eaad375",
+      "time": 1713617624668,
+      "type": "DESPAWNED",
+      "playerSpawned": "Seraph",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Savanna"
+    },
+    {
+      "pokemonUuid": "5385433b-49ee-4a4b-9483-25690d2fc71a",
+      "time": 1713619467817,
+      "type": "DESPAWNED",
+      "playerSpawned": "Seraph",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:the_nether",
+      "biome": "Soul sand valley"
+    },
+    {
+      "pokemonUuid": "100d6f48-101b-48d3-9340-57bfa304c06b",
+      "time": 1713621267815,
+      "type": "DESPAWNED",
+      "playerSpawned": "Seraph",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:the_nether",
+      "biome": "Nether wastes"
+    },
+    {
+      "pokemonUuid": "987d9b51-9de2-4576-bdb1-518aa1331e52",
+      "time": 1713623100217,
+      "type": "KILLED",
+      "playerSpawned": "SlenderDX1530",
+      "playerActed": "SlenderDX1530",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
     }
   ]
 }
