@@ -19,22 +19,35 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-04-21 08:09:56 +0000",
+      "minecraft:deep_ocean": "2024-04-21 06:51:49 +0000",
       "minecraft:cherry_grove": "2024-04-10 03:56:20 +0000",
       "minecraft:sunflower_plains": "2024-04-19 05:03:19 +0000",
       "minecraft:birch_forest": "2024-04-20 12:31:46 +0000",
       "minecraft:windswept_hills": "2024-04-19 05:05:46 +0000",
+      "minecraft:bamboo_jungle": "2024-04-21 08:58:35 +0000",
+      "minecraft:badlands": "2024-04-21 08:35:22 +0000",
+      "minecraft:savanna_plateau": "2024-04-21 09:16:15 +0000",
       "minecraft:beach": "2024-04-10 06:28:21 +0000",
       "minecraft:dark_forest": "2024-04-19 05:06:25 +0000",
+      "minecraft:stony_peaks": "2024-04-21 08:19:14 +0000",
+      "minecraft:sparse_jungle": "2024-04-21 08:31:20 +0000",
       "minecraft:river": "2024-04-10 05:38:20 +0000",
+      "minecraft:lukewarm_ocean": "2024-04-21 08:57:04 +0000",
       "minecraft:stony_shore": "2024-04-10 04:42:24 +0000",
       "minecraft:dripstone_caves": "2024-04-14 05:34:45 +0000",
       "minecraft:swamp": "2024-04-19 05:06:24 +0000",
+      "minecraft:jagged_peaks": "2024-04-21 08:17:39 +0000",
       "minecraft:forest": "2024-04-10 06:21:25 +0000",
+      "minecraft:desert": "2024-04-21 08:33:11 +0000",
       "minecraft:windswept_forest": "2024-04-19 05:05:47 +0000",
       "minecraft:ocean": "2024-04-10 05:16:01 +0000",
+      "minecraft:jungle": "2024-04-21 08:33:09 +0000",
+      "minecraft:warm_ocean": "2024-04-21 08:48:28 +0000",
       "minecraft:flower_forest": "2024-04-10 06:49:26 +0000",
       "minecraft:old_growth_birch_forest": "2024-04-20 12:36:42 +0000",
       "minecraft:meadow": "2024-04-10 06:50:13 +0000",
+      "minecraft:savanna": "2024-04-21 08:22:09 +0000",
       "minecraft:plains": "2024-04-10 03:52:51 +0000"
     },
     "done": false
@@ -55,6 +68,7 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
+      "luxury_ball": "2024-04-21 06:10:08 +0000",
       "quick_ball": "2024-04-17 07:39:59 +0000",
       "great_ball": "2024-04-14 06:59:58 +0000",
       "verdant_ball": "2024-04-10 06:47:35 +0000",
@@ -1998,6 +2012,7 @@
       "obtain_kasib_berry": "2024-04-19 05:54:03 +0000",
       "obtain_persim_berry": "2024-04-10 06:22:44 +0000",
       "obtain_razz_berry": "2024-04-10 07:33:17 +0000",
+      "obtain_pecha_berry": "2024-04-21 09:13:37 +0000",
       "obtain_oran_berry": "2024-04-10 06:17:36 +0000",
       "obtain_cheri_berry": "2024-04-10 07:33:17 +0000",
       "obtain_chople_berry": "2024-04-20 13:29:00 +0000",
@@ -6340,6 +6355,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-04-20 14:04:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-04-20 14:16:22 +0000"
+    },
+    "done": true
+  },
   "cobblemon:recipes/consumables/modest_mint": {
     "criteria": {
       "has_benefit_mint": "2024-04-20 14:21:12 +0000"
@@ -6388,12 +6415,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2024-04-20 14:04:35 +0000"
-    },
-    "done": true
-  },
   "cobblemon:recipes/consumables/mild_mint": {
     "criteria": {
       "has_benefit_mint": "2024-04-20 14:21:12 +0000"
@@ -6412,9 +6433,795 @@
     },
     "done": false
   },
-  "minecraft:husbandry/plant_seed": {
+  "pfm:recipes/furniture/dark_oak_kitchen_drawer": {
     "criteria": {
-      "wheat": "2024-04-20 14:16:22 +0000"
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_classic_nightstand": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_chair": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_chair_classic": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_table_classic": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_chair": {
+    "criteria": {
+      "diorite_chair": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_classic": {
+    "criteria": {
+      "deepslate_table_classic": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/polished_deepslate_post": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_dinner": {
+    "criteria": {
+      "deepslate_chair_dinner": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_table_log": {
+    "criteria": {
+      "has_log": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_modern_dinner": {
+    "criteria": {
+      "deepslate_table_modern_dinner": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_table_natural": {
+    "criteria": {
+      "diorite_table_natural": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_classic_nightstand": {
+    "criteria": {
+      "diorite_classic_nightstand": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_table_modern_dinner": {
+    "criteria": {
+      "diorite_table_modern_dinner": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_table_basic": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_table_basic": {
+    "criteria": {
+      "diorite_table_basic": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_classic_light_gray": {
+    "criteria": {
+      "oak_chair_classic_light_gray": "2024-04-21 05:45:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2024-04-21 08:17:00 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair": {
+    "criteria": {
+      "deepslate_chair": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/heavy_duty_boots": {
+    "criteria": {
+      "has_leather": "2024-04-21 08:15:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_basic": {
+    "criteria": {
+      "deepslate_table_basic": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_chair_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_chair_dinner": {
+    "criteria": {
+      "diorite_chair_dinner": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_classic_nightstand": {
+    "criteria": {
+      "deepslate_classic_nightstand": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_chair_classic": {
+    "criteria": {
+      "diorite_chair_classic": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_table_classic": {
+    "criteria": {
+      "diorite_table_classic": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-04-21 05:47:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_simple_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_raw_table_log": {
+    "criteria": {
+      "has_log": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_modern_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/transportation/apricorn_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/light_gray_shower_towel": {
+    "criteria": {
+      "has_light_gray_wool": "2024-04-21 05:45:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_log_stool": {
+    "criteria": {
+      "has_log": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_counter_oven": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-04-21 09:04:10 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-04-21 07:48:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_modern": {
+    "criteria": {
+      "deepslate_chair_modern": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_natural": {
+    "criteria": {
+      "deepslate_table_natural": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/oak_chair_classic_black": {
+    "criteria": {
+      "oak_chair_classic_black": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_cabinet": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2024-04-21 09:05:47 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/black_shower_towel": {
+    "criteria": {
+      "has_black_wool": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-04-21 06:38:44 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_table_dinner": {
+    "criteria": {
+      "deepslate_table_dinner": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-21 09:05:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/protector": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_wall_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_table_dinner": {
+    "criteria": {
+      "diorite_table_dinner": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/dark_oak_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_kitchen_sink": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_table_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_kitchen_wall_small_drawer": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-04-21 05:41:24 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_classic_stool": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_chair_modern": {
+    "criteria": {
+      "diorite_chair_modern": "2024-04-21 05:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/deepslate_chair_classic": {
+    "criteria": {
+      "deepslate_chair_classic": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_table_modern_dinner": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/diorite_kitchen_wall_counter": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:47:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_cod": "2024-04-21 07:48:30 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2024-04-21 05:47:17 +0000"
+    },
+    "done": true
+  },
+  "pfm:recipes/furniture/stripped_birch_chair_modern": {
+    "criteria": {
+      "has_planks": "2024-04-21 05:52:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-04-21 05:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-04-21 05:42:05 +0000"
     },
     "done": true
   },

@@ -259,6 +259,72 @@
       "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
       "dimension": "minecraft:overworld",
       "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "47cbe427-2ecc-4001-9543-9faf5b547d9d",
+      "time": 1713679283564,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "mimikyu lvl=10 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Cherry grove"
+    },
+    {
+      "pokemonUuid": "5ecd1f13-9405-4935-94a6-dc8a643b236e",
+      "time": 1713681063664,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "venusaur lvl=34 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "079e6e7e-e3b7-468d-ac64-05580567a702",
+      "time": 1713682930319,
+      "type": "DESPAWNED",
+      "playerSpawned": "meep9000",
+      "pokemonProperties": "zapdos lvl=50 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Plains"
+    },
+    {
+      "pokemonUuid": "83dc9f6a-85f0-499c-8d58-16b878bc29f2",
+      "time": 1713684773217,
+      "type": "DESPAWNED",
+      "playerSpawned": "SlenderDX1530",
+      "pokemonProperties": "ditto lvl=10 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Meadow"
+    },
+    {
+      "pokemonUuid": "7efa8886-c872-43ae-b2a5-2c783883e7a3",
+      "time": 1713686654587,
+      "type": "CAPTURED",
+      "playerSpawned": "meep9000",
+      "playerActed": "meep9000",
+      "pokemonProperties": "chimecho lvl=1 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Jungle"
+    },
+    {
+      "pokemonUuid": "fa4337a4-2921-46a1-b54b-5d1e14f3bfde",
+      "time": 1713688533628,
+      "type": "CAPTURED",
+      "playerSpawned": "SlenderDX1530",
+      "playerActed": "SlenderDX1530",
+      "pokemonProperties": "venusaur lvl=34 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Desert"
+    },
+    {
+      "pokemonUuid": "f149c409-30c5-4124-8cd9-b2c86d4ed24c",
+      "time": 1713690387924,
+      "type": "CAPTURED",
+      "playerSpawned": "meep9000",
+      "playerActed": "meep9000",
+      "pokemonProperties": "decidueye lvl=34 special_attack_iv=31",
+      "dimension": "minecraft:overworld",
+      "biome": "Cherry grove"
     }
   ]
 }
